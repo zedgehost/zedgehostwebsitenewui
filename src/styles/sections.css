@@ -193,6 +193,21 @@
   background: rgba(255, 255, 255, 0.06);
 }
 
+/* Transparent hero image: no frame at all — the image floats directly on the
+   section gradient, so it never looks like a pasted box. (Doubled class to
+   beat the .zh-hero--dark frame background above.) */
+.zh-hero__media-frame.zh-hero__media-frame--transparent {
+  padding: 0;
+  border: none;
+  background: transparent;
+  box-shadow: none;
+  backdrop-filter: none;
+}
+
+.zh-hero__media-frame.zh-hero__media-frame--transparent img {
+  border-radius: 0;
+}
+
 .zh-hero--dark .zh-eyebrow {
   color: #9db8ff;
 }

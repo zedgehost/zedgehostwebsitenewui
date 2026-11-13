@@ -33,6 +33,9 @@ export interface HeroData {
       above the grid instead of the in-column search form. */
   tldPills?: { tld: string; price: string; period: string }[];
   variant?: 'light' | 'dark';
+  /** When the hero image has a transparent background, the media frame goes
+      borderless so the image blends into the section instead of sitting in a box. */
+  transparentImage?: boolean;
 }
 
 export interface HostingType {
