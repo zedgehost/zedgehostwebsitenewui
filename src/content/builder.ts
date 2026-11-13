@@ -131,7 +131,8 @@ export const builderPage: ProductPageData = {
     ],
     primaryCta: { label: 'Build Your Website', href: '.' },
     image: { src: '/assets/img/hero-builder.webp', alt: 'Website builder in Pakistan' },
-    variant: 'light',
+    transparentImage: true,
+    variant: 'dark',
   },
   plans: {
     eyebrow: 'Website Builder',

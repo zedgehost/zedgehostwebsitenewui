@@ -170,7 +170,8 @@ const hero: HeroData = {
   primaryCta: { label: 'Launch Your WordPress Site', href: '#plans' },
   secondaryCta: { label: 'Contact Us', href: contactHref },
   image: { src: '/assets/img/hero-wordpress.webp', alt: 'Managed WordPress hosting by ZedgeHost' },
-  variant: 'light',
+  transparentImage: true,
+  variant: 'dark',
 };
 
 const autoFeatures: Feature[] = [

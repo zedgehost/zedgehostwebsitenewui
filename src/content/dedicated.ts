@@ -113,6 +113,7 @@ export const dedicatedServerPage = dedicatedPage(seo.dedicatedServer, {
   primaryCta: { label: 'Configure Server', href: contactHref },
   secondaryCta: { label: 'Talk to an Expert', href: contactHref },
   image: { src: '/assets/img/hero-dedicated.webp', alt: 'Dedicated servers in Pakistan' },
+  transparentImage: true,
   variant: 'dark',
 });
 

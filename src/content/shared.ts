@@ -30,7 +30,8 @@ const hero: HeroData = {
   primaryCta: { label: 'Get Started Now', href: '#plans' },
   secondaryCta: { label: 'Talk to an Expert', href: contactHref },
   image: { src: '/assets/img/hero-shared.webp', alt: 'ZedgeHost shared web hosting in Pakistan' },
-  variant: 'light',
+  transparentImage: true,
+  variant: 'dark',
 };
 
 const plans = {

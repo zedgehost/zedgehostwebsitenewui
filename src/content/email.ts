@@ -148,7 +148,8 @@ export const businessEmailPage: ProductPageData = {
     primaryCta: { label: 'Get Business Email', href: contactHref },
     secondaryCta: { label: 'Talk to an Expert', href: contactHref },
     image: { src: '/assets/img/hero-email.webp', alt: 'Business email hosting in Pakistan' },
-    variant: 'light',
+    transparentImage: true,
+    variant: 'dark',
   },
   plans,
   sections: [
@@ -188,7 +189,8 @@ export const enterpriseEmailPage: ProductPageData = {
     primaryCta: { label: 'Get Enterprise Email', href: contactHref },
     secondaryCta: { label: 'Talk to an Expert', href: contactHref },
     image: { src: '/assets/img/hero-email.webp', alt: 'Enterprise email hosting in Pakistan' },
-    variant: 'light',
+    transparentImage: true,
+    variant: 'dark',
   },
   plans,
   sections: [

@@ -21,6 +21,7 @@ const hero: HeroData = {
   primaryCta: { label: 'Compare VPS Plans', href: '#plans' },
   secondaryCta: { label: 'Ask About VPS Plans', href: contactHref },
   image: { src: '/assets/img/hero-vps.webp', alt: 'Linux VPS servers by ZedgeHost' },
+  transparentImage: true,
   variant: 'dark',
 };
 

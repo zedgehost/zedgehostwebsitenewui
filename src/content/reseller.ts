@@ -213,7 +213,8 @@ export const resellerHostingPage = resellerPage(seo.resellerHosting, {
   primaryCta: { label: 'Start Reselling', href: contactHref },
   secondaryCta: { label: 'Talk to an Expert', href: contactHref },
   image: { src: '/assets/img/hero-reseller.webp', alt: 'Reseller hosting in Pakistan' },
-  variant: 'light',
+  transparentImage: true,
+  variant: 'dark',
 });
 
 export const windowsResellerPage = resellerPage(seo.windowsReseller, {
@@ -234,5 +235,6 @@ export const windowsResellerPage = resellerPage(seo.windowsReseller, {
   primaryCta: { label: 'Start Reselling', href: contactHref },
   secondaryCta: { label: 'Talk to an Expert', href: contactHref },
   image: { src: '/assets/img/hero-reseller.webp', alt: 'Windows reseller hosting in Pakistan' },
-  variant: 'light',
+  transparentImage: true,
+  variant: 'dark',
 });

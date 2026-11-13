@@ -20,6 +20,7 @@ export const cloudHero: HeroData = {
   primaryCta: { label: 'Launch on Cloud', href: '#plans' },
   secondaryCta: { label: 'Talk to an Expert', href: 'https://my.zedgehost.com/contact.php' },
   image: { src: '/assets/img/hero-cloud.webp', alt: 'ZedgeHost scalable cloud hosting' },
+  transparentImage: true,
   variant: 'dark',
 };
 

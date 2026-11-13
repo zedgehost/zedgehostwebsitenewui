@@ -120,7 +120,8 @@ export const gapsPage: ProductPageData = {
     ],
     primaryCta: { label: 'Get Google Workspace', href: '.' },
     image: { src: '/assets/img/hero-email.webp', alt: 'Google Workspace for teams' },
-    variant: 'light',
+    transparentImage: true,
+    variant: 'dark',
   },
   plans: {
     eyebrow: 'Google Workspace',

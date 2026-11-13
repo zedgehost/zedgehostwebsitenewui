@@ -30,7 +30,8 @@ export const windowsSharedPage: ProductPageData = {
     primaryCta: { label: 'Get Started Now', href: contactHref },
     secondaryCta: { label: 'Talk to an Expert', href: contactHref },
     image: { src: '/assets/img/hero-shared.webp', alt: 'Windows shared hosting in Pakistan' },
-    variant: 'light',
+    transparentImage: true,
+    variant: 'dark',
   },
   plans: {
     eyebrow: 'Windows Hosting Plans',

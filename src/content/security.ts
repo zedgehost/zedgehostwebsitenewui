@@ -37,7 +37,8 @@ export const siteLockPage: ProductPageData = {
     primaryCta: { label: 'Get SiteLock', href: contactHref },
     secondaryCta: { label: 'Talk to an Expert', href: contactHref },
     image: { src: '/assets/img/hero-security.webp', alt: 'SiteLock website security' },
-    variant: 'light',
+    transparentImage: true,
+    variant: 'dark',
   },
   plans,
   sections: [
@@ -128,7 +129,8 @@ export const websiteBackupPage: ProductPageData = {
     primaryCta: { label: 'Get CodeGuard', href: contactHref },
     secondaryCta: { label: 'Talk to an Expert', href: contactHref },
     image: { src: '/assets/img/hero-security.webp', alt: 'CodeGuard website backup' },
-    variant: 'light',
+    transparentImage: true,
+    variant: 'dark',
   },
   plans,
   sections: [
@@ -222,7 +224,8 @@ export const digicertPage: ProductPageData = {
     primaryCta: { label: 'Get SSL Certificate', href: contactHref },
     secondaryCta: { label: 'Talk to an Expert', href: contactHref },
     image: { src: '/assets/img/hero-security.webp', alt: 'SSL certificate security' },
-    variant: 'light',
+    transparentImage: true,
+    variant: 'dark',
   },
   plans,
   sections: [
