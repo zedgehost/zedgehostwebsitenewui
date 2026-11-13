@@ -29,6 +29,9 @@ export interface HeroData {
   showDomainSearch?: boolean;
   /** Helper line above the domain search form (legacy pages word it differently). */
   searchLabel?: string;
+  /** When set, the hero shows a full-width search band (form + TLD price pills)
+      above the grid instead of the in-column search form. */
+  tldPills?: { tld: string; price: string; period: string }[];
   variant?: 'light' | 'dark';
 }
 

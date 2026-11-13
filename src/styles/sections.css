@@ -156,7 +156,7 @@
   background:
     radial-gradient(800px 420px at 88% 10%, rgba(77, 124, 254, 0.16), transparent 60%),
     radial-gradient(600px 380px at 4% 96%, rgba(100, 77, 197, 0.2), transparent 60%),
-    linear-gradient(155deg, var(--zh-navy) 0%, #06260b 100%);
+    linear-gradient(135deg, var(--zh-navy) 0%, #0033c6 100%);
   color: #d7e0f5;
 }
 
@@ -177,7 +177,7 @@
 }
 
 .zh-hero--dark .zh-hero__price s {
-  color: #86a68d;
+  color: #8a94a6;
 }
 
 .zh-hero--dark .zh-hero__ticks {
@@ -193,8 +193,67 @@
   background: rgba(255, 255, 255, 0.06);
 }
 
-.zh-hero--dark .zh-hero__eyebrow {
+.zh-hero--dark .zh-eyebrow {
   color: #9db8ff;
+}
+
+/* Full-width domain search band (homepage hero): search form + TLD price pills. */
+.zh-hero__search-band {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 12px;
+  margin-bottom: clamp(28px, 4vw, 44px);
+}
+
+.zh-hero__search-band-form {
+  flex: 1 1 420px;
+  min-width: 0;
+}
+
+.zh-hero__search-band-form .zh-domain-search {
+  height: 100%;
+}
+
+.zh-hero__tld-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.zh-hero__tld-pills li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 18px;
+  border-radius: var(--zh-radius);
+  background: #fff;
+  box-shadow: var(--zh-shadow-sm);
+}
+
+.zh-hero__tld-pills strong {
+  color: var(--zh-blue);
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.zh-hero__tld-pills span {
+  display: flex;
+  flex-direction: column;
+  color: var(--zh-ink);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.zh-hero__tld-pills small {
+  color: var(--zh-muted);
+  font-size: 11px;
+  font-weight: 500;
 }
 
 .zh-hero__chips {

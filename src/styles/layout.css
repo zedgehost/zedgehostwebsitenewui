@@ -43,7 +43,7 @@
 }
 
 .zh-topbar__offer a {
-  color: #a7e0b0;
+  color: #4dd0e1;
   font-weight: 600;
   text-decoration: underline;
   text-underline-offset: 3px;
@@ -541,7 +541,7 @@
 .zh-footer__contact svg {
   margin-top: 3px;
   flex-shrink: 0;
-  color: #8fd29a;
+  color: #4dd0e1;
 }
 
 .zh-footer h3 {
@@ -576,7 +576,7 @@
 
 .zh-footer__payments-label {
   margin-right: var(--zh-space-2);
-  color: #dbe9de;
+  color: #dbe2f2;
   font-size: 12px;
   font-weight: 600;
 }

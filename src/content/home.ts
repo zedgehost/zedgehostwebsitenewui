@@ -24,6 +24,11 @@ export const homeHero: HeroData = {
   secondaryCta: { label: 'View Hosting Plans', href: 'shared-hosting.html' },
   image: { src: '/assets/img/hero-home.webp', alt: 'ZedgeHost web hosting in Pakistan' },
   showDomainSearch: true,
+  variant: 'dark',
+  tldPills: [
+    { tld: '.com', price: 'Rs 2,999', period: 'for 1 year' },
+    { tld: '.pk', price: 'Rs 4,999', period: 'for 2 years' },
+  ],
 };
 
 export const homeTrust: TrustItem[] = [

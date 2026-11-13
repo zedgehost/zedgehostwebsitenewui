@@ -19,6 +19,24 @@ export function Hero({ data }: { data: HeroData }) {
   return (
     <section className={`zh-hero${isDark ? ' zh-hero--dark' : ''}`}>
       <Container>
+        {data.tldPills && (
+          <div className="zh-hero__search-band">
+            <div className="zh-hero__search-band-form">
+              <DomainSearch />
+            </div>
+            <ul className="zh-hero__tld-pills">
+              {data.tldPills.map((pill) => (
+                <li key={pill.tld}>
+                  <strong>{pill.tld}</strong>
+                  <span>
+                    {pill.price}
+                    <small>{pill.period}</small>
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
         <div className="zh-hero__grid">
           <div>
             {data.eyebrow && <span className="zh-eyebrow">{data.eyebrow}</span>}
@@ -52,7 +70,7 @@ export function Hero({ data }: { data: HeroData }) {
               )}
             </div>
 
-            {data.showDomainSearch && (
+            {data.showDomainSearch && !data.tldPills && (
               <div className="zh-hero__search">
                 <p className="zh-hero__search-label">
                   {data.searchLabel ?? 'Search & register your domain name'}
