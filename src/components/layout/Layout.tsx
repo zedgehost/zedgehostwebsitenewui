@@ -1,6 +1,7 @@
 import type { ReactNode } from 'react';
 import { Footer } from './Footer';
 import { Header } from './Header';
+import { SalePopup } from '../SalePopup';
 import { TopBar } from './TopBar';
 import { WhatsAppFloat } from './WhatsAppFloat';
 
@@ -15,6 +16,7 @@ export function Layout({ currentPath, children }: { currentPath: string; childre
       <main id="main">{children}</main>
       <Footer />
       <WhatsAppFloat />
+      <SalePopup />
     </>
   );
 }
