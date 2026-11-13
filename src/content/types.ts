@@ -46,6 +46,8 @@ export interface HostingType {
 export interface PlanSpec {
   value: string;
   label: string;
+  /** Renders the row as a highlighted offer row (e.g. a free domain). */
+  highlight?: boolean;
 }
 
 export type BillingPeriod = 'yearly' | 'monthly';

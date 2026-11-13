@@ -36,7 +36,10 @@ function PlanCard({ plan }: { plan: Plan }) {
 
       <ul className="zh-plan__specs">
         {plan.specs.map((spec) => (
-          <li key={`${spec.value}-${spec.label}`}>
+          <li
+            key={`${spec.value}-${spec.label}`}
+            className={spec.highlight ? 'zh-plan__spec--highlight' : undefined}
+          >
             <Icon name="check" size={15} />
             <span>
               <strong>{spec.value}</strong> {spec.label}
@@ -75,7 +78,9 @@ export function PlanGrid({ plans, note }: PlanGridProps) {
 
   return (
     <div>
-      <div className="zh-plans__toolbar">
+      <div
+        className={`zh-plans__toolbar${plans.length === 3 ? ' zh-plans__toolbar--3' : ''}`}
+      >
         <p className="zh-plans__period">{periodLabel}</p>
         {note && <p className="zh-plans__note">{note}</p>}
       </div>

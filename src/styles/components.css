@@ -103,6 +103,9 @@
   font-weight: 700;
   letter-spacing: 0.02em;
   line-height: 1.4;
+  /* Badges never wrap or squeeze: "Most Popular" stays on one line. */
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .zh-badge--blue {
@@ -261,6 +264,13 @@
   justify-content: space-between;
   gap: var(--zh-space-4);
   margin-bottom: var(--zh-space-5);
+}
+
+/* Three-plan grids are centred and narrower than the container, so the
+   toolbar matches their exact width and centres with them. */
+.zh-plans__toolbar--3 {
+  max-width: calc(3 * 360px + 2 * var(--zh-space-4));
+  margin-inline: auto;
 }
 
 .zh-plans__period {
@@ -433,6 +443,28 @@
 
 .zh-plan--popular .zh-plan__specs svg {
   color: #4dd0e1;
+}
+
+/* Highlighted spec row (e.g. Free .com Domain): a tinted band that stands
+   out from the plain rows, on light and dark cards alike. */
+.zh-plan__specs li.zh-plan__spec--highlight,
+.zh-plan--popular .zh-plan__specs li.zh-plan__spec--highlight {
+  background: var(--zh-sky);
+  border-radius: 8px;
+  padding: 6px 10px;
+  margin: 0 -10px;
+  color: var(--zh-ink);
+  font-weight: 600;
+}
+
+.zh-plan__specs li.zh-plan__spec--highlight strong,
+.zh-plan--popular .zh-plan__specs li.zh-plan__spec--highlight strong {
+  color: var(--zh-blue);
+}
+
+.zh-plan__specs li.zh-plan__spec--highlight svg,
+.zh-plan--popular .zh-plan__specs li.zh-plan__spec--highlight svg {
+  color: var(--zh-blue);
 }
 
 .zh-plan__more {
