@@ -293,7 +293,9 @@
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: var(--zh-space-4);
-  align-items: stretch;
+  /* Cards size to their own content: expanding "More Features" on one card
+     must not stretch the other cards taller. */
+  align-items: start;
 }
 
 .zh-plan {
