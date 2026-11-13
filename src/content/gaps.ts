@@ -119,7 +119,7 @@ export const gapsPage: ProductPageData = {
       { icon: 'phone', label: '24/7 Expert Support' },
     ],
     primaryCta: { label: 'Get Google Workspace', href: '.' },
-    image: { src: '/assets/img/hosting.webp', alt: 'Google Workspace for teams' },
+    image: { src: '/assets/img/hero-email.webp', alt: 'Google Workspace for teams' },
     variant: 'light',
   },
   plans: {

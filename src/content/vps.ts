@@ -20,7 +20,7 @@ const hero: HeroData = {
   ],
   primaryCta: { label: 'Compare VPS Plans', href: '#plans' },
   secondaryCta: { label: 'Ask About VPS Plans', href: contactHref },
-  image: { src: '/assets/img/cloud-infrastructure.webp', alt: 'Linux VPS servers by ZedgeHost' },
+  image: { src: '/assets/img/hero-vps.webp', alt: 'Linux VPS servers by ZedgeHost' },
   variant: 'dark',
 };
 
@@ -98,7 +98,7 @@ export const linuxVpsPage: ProductPageData = {
           'Compare storage capacity and type',
         ],
         image: {
-          src: '/assets/img/cloud-infrastructure.webp',
+          src: '/assets/img/split-vps.webp',
           alt: 'Linux VPS resources and infrastructure',
         },
         tone: 'mint',

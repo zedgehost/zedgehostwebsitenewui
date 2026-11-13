@@ -167,7 +167,7 @@ const hero: HeroData = {
   ],
   primaryCta: { label: 'Launch Your WordPress Site', href: '#plans' },
   secondaryCta: { label: 'Contact Us', href: contactHref },
-  image: { src: '/assets/img/wordpress.webp', alt: 'Managed WordPress hosting by ZedgeHost' },
+  image: { src: '/assets/img/hero-wordpress.webp', alt: 'Managed WordPress hosting by ZedgeHost' },
   variant: 'light',
 };
 
@@ -266,7 +266,7 @@ export const wordpressHostingPage: ProductPageData = {
         points: ['Blazing-Fast Load Time', 'Instant Scaling', 'Automatic Failover'],
         icon: 'check-circle',
         image: {
-          src: '/assets/img/cloud-infrastructure.webp',
+          src: '/assets/img/split-wordpress.webp',
           alt: 'WordPress hosting powered by ZedgeHost cloud infrastructure',
         },
         tone: 'mint',
@@ -288,7 +288,7 @@ export const wordpressHostingPage: ProductPageData = {
         text: 'Build anything - a blog, a static website or an ecommerce shop.',
         points: ['Ready-made Themes', 'SEO-friendly', 'Diversified Plugins'],
         icon: 'shield',
-        image: { src: '/assets/img/wordpress.webp', alt: 'WordPress themes and plugins' },
+        image: { src: '/assets/img/split-wordpress.webp', alt: 'WordPress themes and plugins' },
         reverse: true,
       },
     },

@@ -64,7 +64,7 @@ export function HomePage() {
           subtitle={speedSection.subtitle}
           points={speedSection.points}
           cta={speedSection.cta}
-          image={{ src: '/assets/img/cloud-infrastructure.webp', alt: 'Fast hosting infrastructure' }}
+          image={{ src: '/assets/img/split-infrastructure.webp', alt: 'Fast hosting infrastructure' }}
         />
       </Section>
 

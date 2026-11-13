@@ -48,7 +48,7 @@ interface RawListing {
   cards: BlogCardData[];
 }
 
-const HERO = { src: '/assets/img/blog-hosting.webp', alt: 'ZedgeHost hosting servers' };
+const HERO = { src: '/assets/img/blog-listing.webp', alt: 'ZedgeHost hosting guides for Pakistan' };
 
 function toPost(raw: RawPost): BlogPostData {
   const seo: SeoData = {
@@ -102,7 +102,11 @@ export const blogPosts: BlogPostData[] = rawPosts
 
 const rawListing = listingJson as unknown as RawListing;
 
-const cards: BlogCardData[] = rawListing.cards.map((card) => ({ ...card }));
+const cards: BlogCardData[] = rawListing.cards.map((card) => {
+  const slug = card.href.replace(/\.html$/, '');
+  const post = blogPosts.find((entry) => entry.slug === slug);
+  return { ...card, image: post?.hero.src };
+});
 
 export const blogIndex: BlogIndexData = {
   title: rawListing.h1,

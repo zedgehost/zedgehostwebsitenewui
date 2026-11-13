@@ -6,7 +6,7 @@ export function BlogCard({ card }: { card: BlogCardData }) {
   return (
     <article className="zh-post-card">
       <a className="zh-post-card__media" href={card.href} tabIndex={-1} aria-hidden="true">
-        <img src="/assets/img/blog-hosting.webp" alt="" width={640} height={360} loading="lazy" />
+        <img src={card.image ?? '/assets/img/blog-listing.webp'} alt="" width={640} height={360} loading="lazy" />
       </a>
       <div className="zh-post-card__body">
         <span className="zh-post-card__category">{card.category}</span>

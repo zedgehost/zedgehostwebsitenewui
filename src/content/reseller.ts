@@ -73,7 +73,7 @@ const resellerSections: ProductSection[] = [
   {
     kind: 'split',
     data: performanceSection(
-      '/assets/img/cloud-infrastructure.webp',
+      '/assets/img/split-reseller.webp',
       'Reseller hosting infrastructure by ZedgeHost',
     ),
   },
@@ -154,7 +154,7 @@ const resellerSections: ProductSection[] = [
         'Automated Daily Backups',
       ],
       icon: 'shield',
-      image: { src: '/assets/img/security.webp', alt: 'Free SSL and reseller hosting security' },
+      image: { src: '/assets/img/split-security.webp', alt: 'Free SSL and reseller hosting security' },
       reverse: true,
     },
   },
@@ -212,7 +212,7 @@ export const resellerHostingPage = resellerPage(seo.resellerHosting, {
   ],
   primaryCta: { label: 'Start Reselling', href: contactHref },
   secondaryCta: { label: 'Talk to an Expert', href: contactHref },
-  image: { src: '/assets/img/hosting.webp', alt: 'Reseller hosting in Pakistan' },
+  image: { src: '/assets/img/hero-reseller.webp', alt: 'Reseller hosting in Pakistan' },
   variant: 'light',
 });
 
@@ -233,6 +233,6 @@ export const windowsResellerPage = resellerPage(seo.windowsReseller, {
   ],
   primaryCta: { label: 'Start Reselling', href: contactHref },
   secondaryCta: { label: 'Talk to an Expert', href: contactHref },
-  image: { src: '/assets/img/hosting.webp', alt: 'Windows reseller hosting in Pakistan' },
+  image: { src: '/assets/img/hero-reseller.webp', alt: 'Windows reseller hosting in Pakistan' },
   variant: 'light',
 });

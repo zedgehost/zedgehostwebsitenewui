@@ -81,6 +81,7 @@ export function BlogPostPage({ post }: { post: BlogPostData }) {
                   description: entry.seo.description,
                   meta: `${entry.date} · ${entry.readTime.replace(/ read$/, '')}`,
                   ctaLabel: 'Read the guide',
+                  image: entry.hero.src,
                 }}
               />
             ))}

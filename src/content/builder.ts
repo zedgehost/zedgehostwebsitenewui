@@ -130,7 +130,7 @@ export const builderPage: ProductPageData = {
       { icon: 'headset', label: '24/7 Expert Support' },
     ],
     primaryCta: { label: 'Build Your Website', href: '.' },
-    image: { src: '/assets/img/hosting.webp', alt: 'Website builder in Pakistan' },
+    image: { src: '/assets/img/hero-builder.webp', alt: 'Website builder in Pakistan' },
     variant: 'light',
   },
   plans: {
@@ -178,7 +178,7 @@ export const builderPage: ProductPageData = {
         text: 'Effortlessly create your hosting website in minutes with our intuitive platform. No coding skills required. Launch your site quickly and efficiently with our user-friendly tools.',
         points: ['Assured Speed', 'Numerous Domains', 'Ideal Protection', 'Advanced Storage'],
         icon: 'check-circle',
-        image: { src: '/assets/img/wordpress.webp', alt: 'Website builder templates' },
+        image: { src: '/assets/img/split-wordpress.webp', alt: 'Website builder templates' },
       },
     },
     {

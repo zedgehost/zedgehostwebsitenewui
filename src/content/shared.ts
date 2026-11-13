@@ -29,7 +29,7 @@ const hero: HeroData = {
   ],
   primaryCta: { label: 'Get Started Now', href: '#plans' },
   secondaryCta: { label: 'Talk to an Expert', href: contactHref },
-  image: { src: '/assets/img/hosting.webp', alt: 'ZedgeHost shared web hosting in Pakistan' },
+  image: { src: '/assets/img/hero-shared.webp', alt: 'ZedgeHost shared web hosting in Pakistan' },
   variant: 'light',
 };
 
@@ -69,7 +69,7 @@ export const sharedHostingPage: ProductPageData = {
     {
       kind: 'split',
       data: performanceSection(
-        '/assets/img/cloud-infrastructure.webp',
+        '/assets/img/split-infrastructure.webp',
         'Shared hosting infrastructure by ZedgeHost',
       ),
     },
@@ -84,7 +84,7 @@ export const sharedHostingPage: ProductPageData = {
     {
       kind: 'split',
       data: securitySection(
-        '/assets/img/security.webp',
+        '/assets/img/split-security.webp',
         'Advanced security for shared hosting',
       ),
     },

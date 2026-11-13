@@ -50,7 +50,7 @@ const sections: ProductSection[] = [
         'Additional Storage*',
       ],
       image: {
-        src: '/assets/img/cloud-infrastructure.webp',
+        src: '/assets/img/split-dedicated.webp',
         alt: 'Dedicated server infrastructure by ZedgeHost',
       },
       tone: 'mint',
@@ -112,7 +112,7 @@ export const dedicatedServerPage = dedicatedPage(seo.dedicatedServer, {
   ],
   primaryCta: { label: 'Configure Server', href: contactHref },
   secondaryCta: { label: 'Talk to an Expert', href: contactHref },
-  image: { src: '/assets/img/cloud-infrastructure.webp', alt: 'Dedicated servers in Pakistan' },
+  image: { src: '/assets/img/hero-dedicated.webp', alt: 'Dedicated servers in Pakistan' },
   variant: 'dark',
 });
 
@@ -130,7 +130,7 @@ export const windowsDedicatedPage = dedicatedPage(seo.windowsDedicated, {
   primaryCta: { label: 'Configure Server', href: contactHref },
   secondaryCta: { label: 'Talk to an Expert', href: contactHref },
   image: {
-    src: '/assets/img/cloud-infrastructure.webp',
+    src: '/assets/img/hero-dedicated.webp',
     alt: 'Windows dedicated servers in Pakistan',
   },
   variant: 'dark',

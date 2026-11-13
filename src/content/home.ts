@@ -22,7 +22,7 @@ export const homeHero: HeroData = {
   ticks: ['Free SSL certificate', 'cPanel included', '24/7 local support'],
   primaryCta: { label: 'Get Started', href: '#plans' },
   secondaryCta: { label: 'View Hosting Plans', href: 'shared-hosting.html' },
-  image: { src: '/assets/img/hosting.webp', alt: 'ZedgeHost web hosting in Pakistan' },
+  image: { src: '/assets/img/hero-home.webp', alt: 'ZedgeHost web hosting in Pakistan' },
   showDomainSearch: true,
 };
 

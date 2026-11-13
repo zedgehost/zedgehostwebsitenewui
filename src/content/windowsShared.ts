@@ -29,7 +29,7 @@ export const windowsSharedPage: ProductPageData = {
     ],
     primaryCta: { label: 'Get Started Now', href: contactHref },
     secondaryCta: { label: 'Talk to an Expert', href: contactHref },
-    image: { src: '/assets/img/hosting.webp', alt: 'Windows shared hosting in Pakistan' },
+    image: { src: '/assets/img/hero-shared.webp', alt: 'Windows shared hosting in Pakistan' },
     variant: 'light',
   },
   plans: {
@@ -43,7 +43,7 @@ export const windowsSharedPage: ProductPageData = {
     {
       kind: 'split',
       data: performanceSection(
-        '/assets/img/cloud-infrastructure.webp',
+        '/assets/img/split-infrastructure.webp',
         'Windows hosting infrastructure by ZedgeHost',
       ),
     },
@@ -103,7 +103,7 @@ export const windowsSharedPage: ProductPageData = {
           'Automated Daily Backups',
         ],
         icon: 'shield',
-        image: { src: '/assets/img/security.webp', alt: 'Windows hosting security' },
+        image: { src: '/assets/img/split-security.webp', alt: 'Windows hosting security' },
         reverse: true,
       },
     },

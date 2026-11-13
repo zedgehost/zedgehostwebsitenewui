@@ -19,7 +19,7 @@ export const cloudHero: HeroData = {
   ],
   primaryCta: { label: 'Launch on Cloud', href: '#plans' },
   secondaryCta: { label: 'Talk to an Expert', href: 'https://my.zedgehost.com/contact.php' },
-  image: { src: '/assets/img/cloud-hero.webp', alt: 'ZedgeHost scalable cloud hosting' },
+  image: { src: '/assets/img/hero-cloud.webp', alt: 'ZedgeHost scalable cloud hosting' },
   variant: 'dark',
 };
 
@@ -287,7 +287,7 @@ export const cloudPage: ProductPageData = {
         text: cloudInfrastructure.subtitle,
         points: cloudInfrastructure.points,
         image: {
-          src: '/assets/img/cloud-infrastructure.webp',
+          src: '/assets/img/split-infrastructure.webp',
           alt: 'Scalable cloud infrastructure by ZedgeHost',
         },
         tone: 'mint',
@@ -308,7 +308,7 @@ export const cloudPage: ProductPageData = {
         text: cloudSecurity.subtitle,
         points: cloudSecurity.points,
         icon: 'shield',
-        image: { src: '/assets/img/security.webp', alt: 'Advanced security for cloud hosting' },
+        image: { src: '/assets/img/split-security.webp', alt: 'Advanced security for cloud hosting' },
         reverse: true,
         tone: 'mint',
       },

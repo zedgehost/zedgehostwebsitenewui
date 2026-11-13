@@ -29,7 +29,7 @@ function detailPage(
       primaryCta: { label: `Buy ${plan.name} Now`, href: plan.ctaHref },
       secondaryCta: { label: 'Compare all Linux VPS plans', href: 'linux-vps-server.html' },
       image: {
-        src: '/assets/img/cloud-infrastructure.webp',
+        src: '/assets/img/hero-vps.webp',
         alt: `${plan.name} Linux VPS by ZedgeHost`,
       },
       variant: 'light',

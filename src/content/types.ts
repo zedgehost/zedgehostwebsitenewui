@@ -235,6 +235,7 @@ export interface BlogCardData {
   description: string;
   meta: string;
   ctaLabel: string;
+  image?: string;
 }
 
 export interface BlogIndexData {

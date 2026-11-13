@@ -7,7 +7,7 @@ import type {
 import { supportCta } from './blocks';
 import { seo } from './seo';
 
-const heroImage = { src: '/assets/img/hosting.webp', alt: 'Domain registration in Pakistan' };
+const heroImage = { src: '/assets/img/hero-domain.webp', alt: 'Domain registration in Pakistan' };
 
 const domainChips = [
   { icon: 'globe' as const, label: '300+ TLD Extensions' },
