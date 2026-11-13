@@ -66,7 +66,7 @@ export const popularTlds: TldTableSectionData = {
   columns: ['New Registration', 'Transfer', 'Renewal'],
   rows: [
     { tld: '.pk', values: ['Rs 4,999', 'Contact us', 'Contact us'] },
-    { tld: '.com', values: ['Rs 2,999', 'Rs 2,999', 'Rs 3,999'] },
+    { tld: '.com', values: ['Rs 3,999', 'Rs 3,999', 'Rs 3,999'] },
     { tld: '.net', values: ['Rs 4,512', 'Rs 4,512', 'Rs 4,512'] },
     { tld: '.org', values: ['Rs 2,879', 'Rs 4,195', 'Rs 4,195'] },
   ],
