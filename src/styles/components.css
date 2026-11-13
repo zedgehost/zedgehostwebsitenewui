@@ -298,6 +298,13 @@
   align-items: start;
 }
 
+/* Three-plan grids (cloud, reseller, email, builder): same card width as the
+   four-plan grids, with the group centred instead of leaving an empty column. */
+.zh-plans__grid--3 {
+  grid-template-columns: repeat(3, minmax(0, 360px));
+  justify-content: center;
+}
+
 .zh-plan {
   display: flex;
   flex-direction: column;

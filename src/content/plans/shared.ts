@@ -1,12 +1,19 @@
 import type { Plan } from '../types';
 
 /** Starter to Enterprise shared hosting plans, used by Home and Shared Hosting. */
-const sharedSpecs = (websites: string, storage: string, emails: string, databases: string) => [
+const sharedSpecs = (
+  websites: string,
+  storage: string,
+  emails: string,
+  databases: string,
+  freeDomain = false,
+) => [
   { value: websites, label: websites === '1' ? 'Website' : 'Websites' },
   { value: storage, label: 'NVMe Storage' },
   { value: 'Unmetered', label: 'Bandwidth' },
   { value: emails, label: 'Email Accounts' },
   { value: databases, label: 'MySQL Databases' },
+  ...(freeDomain ? [{ value: 'Free', label: '.com Domain' }] : []),
   { value: '2', label: 'FTP Accounts' },
   { value: 'Free', label: 'SSL Certificate' },
   { value: '24/7', label: 'Dedicated Support' },
@@ -65,7 +72,7 @@ export const sharedHostingPlans: Plan[] = [
       ctaHref: 'https://my.zedgehost.com/index.php?rp=/store/web-hosting/business',
       popular: true,
       badge: 'Popular',
-      specs: sharedSpecs('20', '100 GB', '50', 'Unlimited'),
+      specs: sharedSpecs('20', '100 GB', '50', 'Unlimited', true),
       more: [
         'Free cPanel Control Panel',
         'Free Website Migration',
@@ -93,6 +100,7 @@ export const sharedHostingPlans: Plan[] = [
         { value: 'Unmetered', label: 'Bandwidth' },
         { value: 'Unlimited', label: 'Email Accounts' },
         { value: 'Unlimited', label: 'MySQL Databases' },
+        { value: 'Free', label: '.com Domain' },
         { value: 'Unlimited', label: 'FTP Accounts' },
         { value: 'Free', label: 'SSL Certificate' },
         { value: '24/7 Priority', label: 'VIP Support' },

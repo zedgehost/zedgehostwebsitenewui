@@ -80,7 +80,10 @@ export function PlanGrid({ plans, note }: PlanGridProps) {
         {note && <p className="zh-plans__note">{note}</p>}
       </div>
 
-      <div className="zh-plans__grid" data-reveal-group>
+      <div
+        className={`zh-plans__grid${plans.length === 3 ? ' zh-plans__grid--3' : ''}`}
+        data-reveal-group
+      >
         {plans.map((plan) => (
           <PlanCard key={plan.name} plan={plan} />
         ))}
