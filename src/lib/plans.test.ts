@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import type { Plan } from '../content/types';
-import { comparisonLabels, comparisonValue, resolvePlanAmount } from './plans';
+import { comparisonLabels, comparisonValue } from './plans';
 
 function plan(overrides: Partial<Plan>): Plan {
   return {
@@ -15,20 +15,6 @@ function plan(overrides: Partial<Plan>): Plan {
     ...overrides,
   };
 }
-
-describe('resolvePlanAmount', () => {
-  it('shows the stored yearly price in the yearly period', () => {
-    expect(resolvePlanAmount(plan({ price: 1499 }), 'yearly')).toBe(1499);
-  });
-
-  it('converts a yearly price to its monthly equivalent', () => {
-    expect(resolvePlanAmount(plan({ price: 1499 }), 'monthly')).toBe(125);
-  });
-
-  it('never divides a plan that is already billed monthly', () => {
-    expect(resolvePlanAmount(plan({ price: 1699, billing: 'monthly' }), 'monthly')).toBe(1699);
-  });
-});
 
 describe('comparison helpers', () => {
   const plans = [

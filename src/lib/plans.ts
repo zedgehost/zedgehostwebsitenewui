@@ -1,17 +1,4 @@
-import type { BillingPeriod, Plan } from '../content/types';
-import { monthlyEquivalent } from './format';
-
-/**
- * Amount to display for a plan in the selected billing period.
- * Only yearly plans are converted to their monthly equivalent; monthly plans
- * already store a per-month price.
- */
-export function resolvePlanAmount(plan: Plan, period: BillingPeriod): number {
-  if (period === 'monthly' && plan.billing === 'yearly') {
-    return monthlyEquivalent(plan.price);
-  }
-  return plan.price;
-}
+import type { Plan } from '../content/types';
 
 /** Union of spec labels across plans, in first-seen order, for comparison tables. */
 export function comparisonLabels(plans: Plan[]): string[] {

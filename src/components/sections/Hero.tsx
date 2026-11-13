@@ -1,6 +1,6 @@
 import { useCurrency } from '../../app/currency';
 import type { HeroData } from '../../content/types';
-import { formatPrice, monthlyEquivalent } from '../../lib/format';
+import { formatPrice } from '../../lib/format';
 import { Button } from '../ui/Button';
 import { Container } from '../ui/Container';
 import { Icon } from '../ui/Icon';
@@ -9,14 +9,12 @@ import { DomainSearch } from './DomainSearch';
 export function Hero({ data }: { data: HeroData }) {
   const { currency } = useCurrency();
   const isDark = data.variant === 'dark';
-  // Plan cards quote per-month prices, so the hero quote matches them even when
-  // the stored price is the yearly total.
+  // Prices are quoted in their own billing period: yearly products show the
+  // yearly price, monthly products (VPS, dedicated, email) the monthly price.
   const suffix = data.priceSuffix ?? 'year';
-  const yearly = suffix === 'year';
-  const priceFrom = data.priceFrom !== undefined && yearly ? monthlyEquivalent(data.priceFrom) : data.priceFrom;
-  const priceRegular =
-    data.priceRegular !== undefined && yearly ? monthlyEquivalent(data.priceRegular) : data.priceRegular;
-  const priceSuffix = yearly ? 'month' : suffix;
+  const priceFrom = data.priceFrom;
+  const priceRegular = data.priceRegular;
+  const priceSuffix = suffix;
 
   return (
     <section className={`zh-hero${isDark ? ' zh-hero--dark' : ''}`}>

@@ -1,18 +1,15 @@
 import { useCurrency } from '../../app/currency';
 import type { Plan } from '../../content/types';
-import { formatPrice, monthlyEquivalent } from '../../lib/format';
+import { formatPrice } from '../../lib/format';
 import { Badge } from '../ui/Badge';
 import { Button } from '../ui/Button';
 import { Icon } from '../ui/Icon';
 
-/** Cards always quote a per-month price; yearly plans are shown as their monthly share. */
-function monthlyAmount(plan: Plan): number {
-  return plan.billing === 'yearly' ? monthlyEquivalent(plan.price) : plan.price;
-}
-
+/** Cards quote the plan's own billing period: yearly plans show the yearly price, monthly plans the monthly price. */
 function PlanCard({ plan }: { plan: Plan }) {
   const { currency } = useCurrency();
-  const amount = monthlyAmount(plan);
+  const amount = plan.price;
+  const period = plan.billing === 'yearly' ? 'year' : 'month';
   const note = plan.note.replace('{price}', formatPrice(plan.price, currency));
 
   return (
@@ -27,7 +24,7 @@ function PlanCard({ plan }: { plan: Plan }) {
 
       <p className="zh-plan__price">
         {formatPrice(amount, currency)}
-        <span>/ month</span>
+        <span>/ {period}</span>
       </p>
       <p className="zh-plan__note">{note}</p>
 
@@ -72,11 +69,14 @@ interface PlanGridProps {
 
 export function PlanGrid({ plans, note }: PlanGridProps) {
   if (plans.length === 0) return null;
+  const allYearly = plans.every((plan) => plan.billing === 'yearly');
+  const allMonthly = plans.every((plan) => plan.billing === 'monthly');
+  const periodLabel = allYearly ? 'All prices per year' : allMonthly ? 'All prices per month' : 'Prices as billed';
 
   return (
     <div>
       <div className="zh-plans__toolbar">
-        <p className="zh-plans__period">All prices per month</p>
+        <p className="zh-plans__period">{periodLabel}</p>
         {note && <p className="zh-plans__note">{note}</p>}
       </div>
 

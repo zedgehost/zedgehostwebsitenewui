@@ -14,7 +14,3 @@ export function formatPrice(amountPkr: number, currency: Currency = 'PKR'): stri
 
   return `Rs ${new Intl.NumberFormat('en-PK', { maximumFractionDigits: 0 }).format(amountPkr)}`;
 }
-
-export function monthlyEquivalent(annualPkr: number): number {
-  return Math.round(annualPkr / 12);
-}
