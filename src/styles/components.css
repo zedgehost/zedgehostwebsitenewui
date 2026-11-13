@@ -240,11 +240,14 @@
   padding: 8px 14px;
   border: 0;
   background: transparent;
+  /* Typed text must stay black: the dark hero sets white text, which the
+     input would otherwise inherit and turn invisible on the white pill. */
+  color: #000;
   font-size: var(--zh-fs-sm);
 }
 
 .zh-domain-search input::placeholder {
-  color: #8a94a6;
+  color: #6b7280;
 }
 
 .zh-domain-search input:focus-visible {
