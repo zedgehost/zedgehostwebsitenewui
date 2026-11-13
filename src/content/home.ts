@@ -27,7 +27,7 @@ export const homeHero: HeroData = {
   showDomainSearch: true,
   variant: 'dark',
   tldPills: [
-    { tld: '.com', price: 'Rs 3,999', period: 'for 1 year' },
+    { tld: '.com', price: 'Rs 2,999', period: 'for 1 year' },
     { tld: '.pk', price: 'Rs 4,999', period: 'for 2 years' },
   ],
 };
