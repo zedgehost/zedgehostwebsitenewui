@@ -18,28 +18,66 @@
   display: flex;
   align-items: center;
   gap: 8px;
+  flex: 1;
   min-width: 0;
   color: #d9e2f5;
 }
 
-.zh-topbar__offer-text,
-.zh-topbar__offer-short {
+/* News-style ticker above the header: the 11.11 sale message scrolls
+   right to left, like a TV news strip. The track holds two identical
+   halves, so the -50% loop restarts seamlessly. */
+.zh-ticker {
+  flex: 1;
+  min-width: 0;
   overflow: hidden;
-  text-overflow: ellipsis;
+  /* Soft fade at both edges so the text slides in and out instead of
+     clipping hard against the edge. */
+  mask-image: linear-gradient(to right, transparent, #000 24px, #000 calc(100% - 24px), transparent);
+}
+
+.zh-ticker__track {
+  display: inline-flex;
   white-space: nowrap;
+  animation: zh-ticker-scroll 28s linear infinite;
+  will-change: transform;
+}
+
+.zh-ticker:hover .zh-ticker__track {
+  animation-play-state: paused;
+}
+
+.zh-ticker__half {
+  display: inline-flex;
+  white-space: nowrap;
+}
+
+.zh-ticker__item {
+  padding-right: 48px;
+}
+
+.zh-ticker__item strong {
+  color: #ffa726;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
+@keyframes zh-ticker-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .zh-ticker__track {
+    animation: none;
+  }
 }
 
 .zh-topbar__offer a {
   flex-shrink: 0;
-}
-
-.zh-topbar__offer strong {
-  color: #fff;
-  font-weight: 700;
-}
-
-.zh-topbar__offer-short {
-  display: none;
 }
 
 .zh-topbar__offer a {
@@ -709,18 +747,6 @@
   .zh-topbar__offer {
     gap: 6px;
     font-size: 11px;
-  }
-
-  .zh-topbar__offer-short {
-    white-space: nowrap;
-  }
-
-  .zh-topbar__offer-text {
-    display: none;
-  }
-
-  .zh-topbar__offer-short {
-    display: inline;
   }
 
   .zh-topbar__links > a {

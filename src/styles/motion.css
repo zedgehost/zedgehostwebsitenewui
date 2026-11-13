@@ -167,6 +167,7 @@
   .zh-mega,
   .zh-mega__link,
   .zh-mega__promo,
+  .zh-ticker__track,
   .zh-accordion__panel:not([hidden]) {
     animation: none;
   }
