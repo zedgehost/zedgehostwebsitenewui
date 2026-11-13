@@ -560,14 +560,27 @@
 
 .zh-sale-popup__card {
   position: relative;
-  width: min(420px, 100%);
-  background: linear-gradient(160deg, var(--zh-navy) 0%, var(--zh-blue) 100%);
+  width: min(440px, 100%);
+  background:
+    radial-gradient(120% 60% at 50% 0%, rgba(77, 208, 225, 0.22) 0%, rgba(77, 208, 225, 0) 60%),
+    linear-gradient(160deg, var(--zh-navy) 0%, var(--zh-blue) 100%);
   color: #fff;
   border-radius: var(--zh-radius-lg);
-  padding: 36px 28px 28px;
+  padding: 20px 28px 28px;
   text-align: center;
   box-shadow: 0 24px 64px rgba(8, 20, 59, 0.45);
   animation: zh-sale-popup-in 0.25s ease-out;
+}
+
+.zh-sale-popup__media {
+  margin: 0 0 4px;
+}
+
+.zh-sale-popup__media img {
+  display: block;
+  width: min(320px, 100%);
+  height: auto;
+  margin: 0 auto;
 }
 
 @keyframes zh-sale-popup-in {
@@ -596,6 +609,13 @@
   cursor: pointer;
 }
 
+.zh-sale-popup__badges {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 4px;
+}
+
 .zh-sale-popup__badge {
   display: inline-block;
   background: #ffa726;
@@ -605,6 +625,11 @@
   padding: 6px 14px;
   border-radius: var(--zh-radius-pill);
   font-size: 14px;
+}
+
+.zh-sale-popup__badge--off {
+  background: #fff;
+  color: var(--zh-navy);
 }
 
 .zh-sale-popup__title {
