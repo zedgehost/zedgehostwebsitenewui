@@ -76,31 +76,11 @@
   }
 }
 
-.zh-topbar__offer a {
-  flex-shrink: 0;
-}
-
-.zh-topbar__offer a {
-  color: #4dd0e1;
-  font-weight: 600;
-  text-decoration: underline;
-  text-underline-offset: 3px;
-}
-
 .zh-topbar__links {
   display: flex;
   align-items: center;
   flex-shrink: 0;
   gap: var(--zh-space-4);
-}
-
-.zh-topbar__links a {
-  color: #d9e2f5;
-  font-weight: 500;
-}
-
-.zh-topbar__links a:hover {
-  color: #fff;
 }
 
 .zh-currency {
@@ -747,10 +727,6 @@
   .zh-topbar__offer {
     gap: 6px;
     font-size: 11px;
-  }
-
-  .zh-topbar__links > a {
-    display: none;
   }
 
   .zh-header__actions .zh-btn {
