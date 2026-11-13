@@ -572,6 +572,8 @@
   flex-wrap: wrap;
   align-items: center;
   gap: 8px;
+  /* Lift the payment marks clear of the divider line below. */
+  margin-bottom: var(--zh-space-4);
 }
 
 .zh-footer__payments-label {
