@@ -14,7 +14,7 @@ export function StatsBand({ title, subtitle, features, stats }: StatsBandProps) 
     <section className="zh-section zh-section--deep">
       <Container>
         <div className="zh-section-head zh-section-head--center" data-reveal>
-          <span className="zh-eyebrow" style={{ color: '#9be7a4' }}>
+          <span className="zh-eyebrow" style={{ color: '#9db8ff' }}>
             Why ZedgeHost
           </span>
           <h2>{title}</h2>

@@ -1,25 +1,25 @@
 :root {
-  --zh-green: #2a862e;
-  --zh-green-dark: #1f6b24;
-  --zh-green-light: #43a048;
-  --zh-deep: #0b3d14;
-  --zh-deep-soft: #12491b;
-  --zh-mint: #eaf6ec;
-  --zh-mint-strong: #d9eedd;
+  --zh-blue: #0033c6;
+  --zh-blue-dark: #002694;
+  --zh-blue-light: #4d7cfe;
+  --zh-navy: #08143b;
+  --zh-navy-soft: #0f2050;
+  --zh-sky: #eaf0ff;
+  --zh-sky-strong: #d8e4ff;
   --zh-purple: #644dc5;
   --zh-ink: #0f172a;
-  --zh-muted: #5b6b63;
-  --zh-bg: #f7f9f7;
+  --zh-muted: #5b6b7c;
+  --zh-bg: #f7f9fc;
   --zh-surface: #ffffff;
-  --zh-border: #e3eae4;
+  --zh-border: #e3e8f0;
 
   --zh-radius-sm: 12px;
   --zh-radius: 16px;
   --zh-radius-lg: 24px;
   --zh-radius-pill: 999px;
 
-  --zh-shadow-sm: 0 2px 8px rgba(11, 61, 20, 0.06);
-  --zh-shadow-md: 0 16px 40px rgba(11, 61, 20, 0.1);
+  --zh-shadow-sm: 0 2px 8px rgba(8, 20, 59, 0.06);
+  --zh-shadow-md: 0 16px 40px rgba(8, 20, 59, 0.1);
 
   --zh-container: 1240px;
   --zh-gutter: clamp(16px, 4vw, 32px);

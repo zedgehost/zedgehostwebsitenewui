@@ -11,7 +11,7 @@ export function HostingGrid({ items }: { items: HostingType[] }) {
             <span className="zh-icon-tile">
               <Icon name={item.icon} size={24} />
             </span>
-            {item.popular && <Badge tone="green">Popular</Badge>}
+            {item.popular && <Badge tone="blue">Popular</Badge>}
           </div>
           <h3>{item.title}</h3>
           <p>{item.description}</p>

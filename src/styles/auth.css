@@ -4,7 +4,7 @@
   padding: var(--zh-space-9) 0;
   display: flex;
   align-items: center;
-  background: radial-gradient(circle at 15% 15%, var(--zh-mint), transparent 55%), var(--zh-bg);
+  background: radial-gradient(circle at 15% 15%, var(--zh-sky), transparent 55%), var(--zh-bg);
 }
 
 .zh-auth__card {
@@ -37,7 +37,7 @@
   margin: 0 0 var(--zh-space-6);
   text-align: center;
   font-size: var(--zh-fs-h3);
-  color: var(--zh-green-dark);
+  color: var(--zh-blue-dark);
 }
 
 .zh-auth__grid {
@@ -70,7 +70,7 @@
 .zh-auth__field input:focus-visible,
 .zh-auth__check input:focus-visible,
 .zh-auth__submit:focus-visible {
-  outline: 2px solid var(--zh-green);
+  outline: 2px solid var(--zh-blue);
   outline-offset: 2px;
 }
 
@@ -90,7 +90,7 @@
 }
 
 .zh-auth__forgot a {
-  color: var(--zh-green-dark);
+  color: var(--zh-blue-dark);
   font-weight: 600;
 }
 
@@ -101,7 +101,7 @@
   padding: 14px 20px;
   border: 0;
   border-radius: var(--zh-radius-pill);
-  background: var(--zh-green);
+  background: var(--zh-blue);
   color: #fff;
   font: inherit;
   font-weight: 600;
@@ -112,7 +112,7 @@
 }
 
 .zh-auth__submit:hover {
-  background: var(--zh-green-dark);
+  background: var(--zh-blue-dark);
 }
 
 .zh-auth__footer {
@@ -123,7 +123,7 @@
 }
 
 .zh-auth__footer a {
-  color: var(--zh-green-dark);
+  color: var(--zh-blue-dark);
   font-weight: 600;
 }
 

@@ -87,7 +87,7 @@ h1,
 h2,
 h3,
 h4 {
-  color: var(--zh-deep);
+  color: var(--zh-navy);
   font-weight: 800;
   letter-spacing: -0.02em;
   line-height: 1.15;
@@ -99,12 +99,12 @@ p {
 }
 
 a {
-  color: var(--zh-green-dark);
+  color: var(--zh-blue-dark);
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--zh-green);
+  color: var(--zh-blue);
 }
 
 ul,
@@ -114,14 +114,14 @@ ol {
 }
 
 :focus-visible {
-  outline: 3px solid rgba(42, 134, 46, 0.45);
+  outline: 3px solid rgba(0, 51, 198, 0.45);
   outline-offset: 2px;
   border-radius: 4px;
 }
 
 ::selection {
-  background: var(--zh-mint-strong);
-  color: var(--zh-deep);
+  background: var(--zh-sky-strong);
+  color: var(--zh-navy);
 }
 
 .zh-container {
@@ -136,11 +136,11 @@ ol {
 }
 
 .zh-section--mint {
-  background: var(--zh-mint);
+  background: var(--zh-sky);
 }
 
 .zh-section--deep {
-  background: linear-gradient(160deg, var(--zh-deep) 0%, #072c0e 100%);
+  background: linear-gradient(160deg, var(--zh-navy) 0%, #050d29 100%);
   color: #e8f2ea;
 }
 
@@ -160,7 +160,7 @@ ol {
   align-items: center;
   gap: 8px;
   margin-bottom: var(--zh-space-4);
-  color: var(--zh-green-dark);
+  color: var(--zh-blue-dark);
   font-size: var(--zh-fs-xs);
   font-weight: 700;
   letter-spacing: 0.14em;
@@ -199,7 +199,7 @@ ol {
 }
 
 .zh-section--deep .zh-section-head p {
-  color: #b9d3be;
+  color: #b9c4e8;
 }
 
 .zh-prose {
@@ -242,7 +242,7 @@ ol {
   z-index: 1000;
   padding: 10px 16px;
   border-radius: var(--zh-radius-sm);
-  background: var(--zh-deep);
+  background: var(--zh-navy);
   color: #fff;
   font-weight: 600;
   transition: top var(--zh-transition);

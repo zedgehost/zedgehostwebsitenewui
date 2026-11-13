@@ -19,7 +19,7 @@ function PlanCard({ plan }: { plan: Plan }) {
           <h3>{plan.name}</h3>
           <p>{plan.tagline}</p>
         </div>
-        {plan.badge && <Badge tone={plan.popular ? 'light' : 'green'}>{plan.badge}</Badge>}
+        {plan.badge && <Badge tone={plan.popular ? 'light' : 'blue'}>{plan.badge}</Badge>}
       </div>
 
       <p className="zh-plan__price">

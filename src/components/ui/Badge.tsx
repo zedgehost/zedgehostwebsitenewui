@@ -1,10 +1,10 @@
 import type { ReactNode } from 'react';
 
-type Tone = 'green' | 'solid' | 'purple' | 'deep' | 'light';
+type Tone = 'blue' | 'solid' | 'purple' | 'deep' | 'light';
 
 export function Badge({
   children,
-  tone = 'green',
+  tone = 'blue',
   className = '',
 }: {
   children: ReactNode;
