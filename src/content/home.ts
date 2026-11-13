@@ -172,6 +172,11 @@ export const supportSection = {
       title: 'Real Human Support, Day & Night',
       text: 'Get help with hosting setup, migrations, SSL and technical issues — whenever you need it.',
     },
+    {
+      icon: 'refresh' as const,
+      title: 'Free Website Migration',
+      text: 'Moving to ZedgeHost is easy: our team migrates your website for free, with zero downtime and no hassle.',
+    },
   ],
   cta: { label: 'Explore Our Support', href: 'https://my.zedgehost.com/contact.php' },
 };
