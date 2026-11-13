@@ -198,6 +198,11 @@
 }
 
 /* Full-width domain search band (homepage hero): search form + TLD price pills. */
+.zh-hero--search-band {
+  /* Less space above the search bar: the band sits right under the header. */
+  padding-top: clamp(20px, 2.5vw, 32px);
+}
+
 .zh-hero__search-band {
   display: flex;
   flex-wrap: wrap;

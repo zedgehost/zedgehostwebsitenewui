@@ -17,7 +17,9 @@ export function Hero({ data }: { data: HeroData }) {
   const priceSuffix = suffix;
 
   return (
-    <section className={`zh-hero${isDark ? ' zh-hero--dark' : ''}`}>
+    <section
+      className={`zh-hero${isDark ? ' zh-hero--dark' : ''}${data.tldPills ? ' zh-hero--search-band' : ''}`}
+    >
       <Container>
         {data.tldPills && (
           <div className="zh-hero__search-band">
