@@ -106,6 +106,8 @@
 
 .zh-hero__media-frame img {
   width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
   border-radius: var(--zh-radius-lg);
   object-fit: cover;
 }

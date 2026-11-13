@@ -110,7 +110,7 @@ export function Hero({ data }: { data: HeroData }) {
             <div
               className={`zh-hero__media-frame${data.transparentImage ? ' zh-hero__media-frame--transparent' : ''}`}
             >
-              <img src={data.image.src} alt={data.image.alt} fetchPriority="high" />
+              <img src={data.image.src} alt={data.image.alt} width={900} height={600} fetchPriority="high" />
             </div>
             <div className="zh-hero__float zh-hero__float--top">
               <Icon name="shield" size={22} />
