@@ -307,17 +307,6 @@
   color: var(--zh-blue);
 }
 
-.zh-promo-strip__badge {
-  padding: 3px 10px;
-  border-radius: var(--zh-radius-pill);
-  background: #ffa726;
-  color: #08143b;
-  font-size: 12px;
-  font-weight: 800;
-  letter-spacing: 0.02em;
-  white-space: nowrap;
-}
-
 .zh-promo-code {
   display: inline-flex;
   align-items: center;

@@ -39,8 +39,6 @@ export interface HeroData {
     promoPrice?: string;
     /** Promo code shown in the hero promo strip with a copy button. */
     promoCode?: string;
-    /** Short discount badge shown in the promo strip, e.g. "16.67% OFF". */
-    promoLabel?: string;
   }[];
   variant?: 'light' | 'dark';
   /** When the hero image has a transparent background, the media frame goes

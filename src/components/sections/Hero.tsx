@@ -49,14 +49,11 @@ export function Hero({ data }: { data: HeroData }) {
         )}
         {promoPill?.promoCode && (
           <p className="zh-promo-strip">
-            {promoPill.promoLabel && (
-              <span className="zh-promo-strip__badge">{promoPill.promoLabel}</span>
-            )}
             <span>
               Get {promoPill.tld} for <strong>{promoPill.promoPrice}</strong> (was{' '}
-              <s>{promoPill.price}</s>). Use this promo code at checkout:
+              <s>{promoPill.price}</s>) when you use promo code{' '}
+              <PromoCodeCopy code={promoPill.promoCode} /> at checkout.
             </span>
-            <PromoCodeCopy code={promoPill.promoCode} />
           </p>
         )}
         <div className="zh-hero__grid">
