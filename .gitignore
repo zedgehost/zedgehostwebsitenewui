@@ -1,5 +1,6 @@
 node_modules/
-dist/
+# dist/ is tracked on purpose: the live site deploys with `git pull` on the
+# server, so the built pages and assets must be in the repo.
 *.log
 *.local
 .DS_Store
