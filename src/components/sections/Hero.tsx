@@ -4,11 +4,13 @@ import { formatPrice } from '../../lib/format';
 import { Button } from '../ui/Button';
 import { Container } from '../ui/Container';
 import { Icon } from '../ui/Icon';
+import { PromoCodeCopy } from '../ui/PromoCodeCopy';
 import { DomainSearch } from './DomainSearch';
 
 export function Hero({ data }: { data: HeroData }) {
   const { currency } = useCurrency();
   const isDark = data.variant === 'dark';
+  const promoPill = data.tldPills?.find((pill) => pill.promoCode);
   // Prices are quoted in their own billing period: yearly products show the
   // yearly price, monthly products (VPS, dedicated, email) the monthly price.
   const suffix = data.priceSuffix ?? 'year';
@@ -31,13 +33,31 @@ export function Hero({ data }: { data: HeroData }) {
                 <li key={pill.tld}>
                   <strong>{pill.tld}</strong>
                   <span>
-                    {pill.price}
+                    {pill.promoPrice ? (
+                      <>
+                        {pill.promoPrice} <s>{pill.price}</s>
+                      </>
+                    ) : (
+                      pill.price
+                    )}
                     <small>{pill.period}</small>
                   </span>
                 </li>
               ))}
             </ul>
           </div>
+        )}
+        {promoPill?.promoCode && (
+          <p className="zh-promo-strip">
+            {promoPill.promoLabel && (
+              <span className="zh-promo-strip__badge">{promoPill.promoLabel}</span>
+            )}
+            <span>
+              Get {promoPill.tld} for <strong>{promoPill.promoPrice}</strong> (was{' '}
+              <s>{promoPill.price}</s>). Use this promo code at checkout:
+            </span>
+            <PromoCodeCopy code={promoPill.promoCode} />
+          </p>
         )}
         <div className="zh-hero__grid">
           <div>

@@ -26,7 +26,8 @@ export type IconName =
   | 'sparkles'
   | 'backup'
   | 'card'
-  | 'code';
+  | 'code'
+  | 'copy';
 
 const paths: Record<IconName, ReactNode> = {
   'arrow-right': <path d="M5 12h14m-6-6 6 6-6 6" />,
@@ -130,6 +131,12 @@ const paths: Record<IconName, ReactNode> = {
     </>
   ),
   code: <path d="m8 8-4 4 4 4m8-8 4 4-4 4m-3-11-2 14" />,
+  copy: (
+    <>
+      <rect x="9" y="9" width="13" height="13" rx="2" />
+      <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
+    </>
+  ),
 };
 
 interface IconProps extends Omit<SVGProps<SVGSVGElement>, 'name'> {

@@ -31,7 +31,17 @@ export interface HeroData {
   searchLabel?: string;
   /** When set, the hero shows a full-width search band (form + TLD price pills)
       above the grid instead of the in-column search form. */
-  tldPills?: { tld: string; price: string; period: string }[];
+  tldPills?: {
+    tld: string;
+    price: string;
+    period: string;
+    /** Discounted price shown in place of `price` (regular price is struck through). */
+    promoPrice?: string;
+    /** Promo code shown in the hero promo strip with a copy button. */
+    promoCode?: string;
+    /** Short discount badge shown in the promo strip, e.g. "16.67% OFF". */
+    promoLabel?: string;
+  }[];
   variant?: 'light' | 'dark';
   /** When the hero image has a transparent background, the media frame goes
       borderless so the image blends into the section instead of sitting in a box. */
