@@ -332,6 +332,91 @@
   font-size: var(--zh-fs-lg);
 }
 
+/* ---------- 404 page ---------- */
+.zh-notfound {
+  text-align: center;
+}
+
+.zh-notfound__code {
+  margin-top: var(--zh-space-4);
+  font-size: clamp(6rem, 20vw, 11rem);
+  font-weight: 800;
+  line-height: 0.9;
+  letter-spacing: -0.04em;
+  color: #fff;
+}
+
+.zh-notfound__code span {
+  color: #4dd0e1;
+}
+
+.zh-notfound h1 {
+  margin-top: var(--zh-space-4);
+}
+
+.zh-notfound .zh-hero__sub {
+  margin-inline: auto;
+}
+
+.zh-notfound .zh-hero__actions {
+  justify-content: center;
+}
+
+.zh-notfound__search {
+  max-width: 720px;
+  margin: 0 auto var(--zh-space-8);
+  text-align: center;
+}
+
+.zh-notfound__search h3 {
+  font-size: var(--zh-fs-xl);
+}
+
+.zh-notfound__search p {
+  margin-top: var(--zh-space-2);
+  color: var(--zh-muted);
+}
+
+.zh-notfound__search .zh-domain-search {
+  margin-top: var(--zh-space-4);
+}
+
+.zh-notfound__links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: var(--zh-space-4);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: start;
+}
+
+.zh-notfound__links a {
+  display: block;
+  padding: var(--zh-space-4) var(--zh-space-5);
+  background: #fff;
+  border: 1px solid var(--zh-border);
+  border-radius: var(--zh-radius-lg);
+  color: var(--zh-ink);
+  text-decoration: none;
+}
+
+.zh-notfound__links a:hover {
+  border-color: var(--zh-blue);
+}
+
+.zh-notfound__links strong {
+  display: block;
+  color: var(--zh-blue);
+}
+
+.zh-notfound__links span {
+  display: block;
+  margin-top: 2px;
+  font-size: var(--zh-fs-sm);
+  color: var(--zh-muted);
+}
+
 /* ---------- Trust strip ---------- */
 .zh-trust {
   background: #fff;

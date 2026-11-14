@@ -40,6 +40,7 @@ import { AuthPage } from '../pages/AuthPage';
 import { BlogIndexPage } from '../pages/BlogIndexPage';
 import { BlogPostPage } from '../pages/BlogPostPage';
 import { ContentPage } from '../pages/ContentPage';
+import { NotFoundPage } from '../pages/NotFoundPage';
 import { ProductPage } from '../pages/ProductPage';
 import { aboutSeo } from '../content/about';
 import { homeSeo } from '../content/home';
@@ -66,6 +67,13 @@ export const routes: RouteDefinition[] = [
     output: 'about-us.html',
     Page: AboutPage,
     seo: aboutSeo,
+  },
+  {
+    key: '404',
+    path: '/404.html',
+    output: '404.html',
+    Page: NotFoundPage,
+    seo: seo.notFound,
   },
   productRoute('cloud-hosting.html', CloudHostingPage, seo.cloud),
   productRoute('shared-hosting.html', SharedHostingPage, seo.sharedHosting),

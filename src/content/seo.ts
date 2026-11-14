@@ -18,6 +18,7 @@ export const seo = {
   home: requireSeo(legacy, 'home'),
   cloud: requireSeo(legacy, 'cloud'),
   about: requireSeo(legacy, 'about'),
+  notFound: requireSeo(legacy, 'notFound'),
   sharedHosting: requireSeo(products, 'shared-hosting'),
   wordpressHosting: requireSeo(products, 'wordpress-hosting'),
   linuxVps: requireSeo(products, 'linux-vps-server'),
