@@ -23,6 +23,9 @@ function PlanCard({ plan }: { plan: Plan }) {
       </div>
 
       <p className="zh-plan__price">
+        {plan.wasPrice !== undefined && (
+          <s className="zh-plan__was">{formatPrice(plan.wasPrice, currency)}</s>
+        )}
         {formatPrice(amount, currency)}
         <span>/ {period}</span>
       </p>

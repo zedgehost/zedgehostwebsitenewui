@@ -117,9 +117,10 @@ const plans: Plan[] = [
   {
     name: 'Enterprise Plan',
     tagline: 'Maximum power for high-traffic WooCommerce & WP',
-    price: 9999,
+    price: 4999,
+    wasPrice: 9999,
     billing: 'yearly',
-    note: 'Rs 9,999 when you renew this plan',
+    note: 'Rs 4,999 when you renew this plan',
     ctaHref: 'https://my.zedgehost.com/index.php?rp=/store/wordpress/wordpress-enterprise',
     badge: 'Ultimate',
     specs: [

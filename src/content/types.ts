@@ -67,6 +67,8 @@ export interface Plan {
   name: string;
   tagline: string;
   price: number;
+  /** When set, the card shows this regular price struck through before the current price. */
+  wasPrice?: number;
   billing: BillingPeriod;
   note: string;
   ctaHref: string;

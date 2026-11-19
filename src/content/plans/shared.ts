@@ -89,7 +89,8 @@ export const sharedHostingPlans: Plan[] = [
     {
       name: 'Enterprise Plan',
       tagline: 'Unmetered power & max dedicated resources',
-      price: 9999,
+      price: 4999,
+      wasPrice: 9999,
       billing: 'yearly',
       note: '{price} per year on renewal',
       ctaHref: 'https://my.zedgehost.com/index.php?rp=/store/web-hosting/enterprise',

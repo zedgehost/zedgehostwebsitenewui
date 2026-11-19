@@ -390,7 +390,19 @@
   color: var(--zh-muted);
 }
 
+.zh-plan__was {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0;
+  color: var(--zh-muted);
+  text-decoration: line-through;
+}
+
 .zh-plan--popular .zh-plan__price span {
+  color: #a9bce0;
+}
+
+.zh-plan--popular .zh-plan__was {
   color: #a9bce0;
 }
 

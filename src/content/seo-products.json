@@ -106,7 +106,7 @@
           "@type": "AggregateOffer",
           "priceCurrency": "PKR",
           "lowPrice": "1499",
-          "highPrice": "9999",
+          "highPrice": "4999",
           "offerCount": "4",
           "priceValidUntil": "2027-12-31",
           "availability": "https://schema.org/InStock",
@@ -145,12 +145,12 @@
             {
               "@type": "Offer",
               "name": "Enterprise Plan",
-              "price": "9999",
+              "price": "4999",
               "priceCurrency": "PKR",
               "priceValidUntil": "2027-12-31",
               "availability": "https://schema.org/InStock",
               "url": "https://zedgehost.com/shared-hosting.html",
-              "description": "Rs 9,999/year - Dedicated Resources, Turbo NVMe SSD, Enterprise Support"
+              "description": "Rs 4,999/year - Dedicated Resources, Turbo NVMe SSD, Enterprise Support"
             }
           ]
         }
@@ -264,7 +264,7 @@
           "@type": "AggregateOffer",
           "priceCurrency": "PKR",
           "lowPrice": "1499",
-          "highPrice": "9999",
+          "highPrice": "4999",
           "offerCount": "4",
           "priceValidUntil": "2027-12-31",
           "availability": "https://schema.org/InStock",
@@ -303,12 +303,12 @@
             {
               "@type": "Offer",
               "name": "WordPress Enterprise",
-              "price": "9999",
+              "price": "4999",
               "priceCurrency": "PKR",
               "priceValidUntil": "2027-12-31",
               "availability": "https://schema.org/InStock",
               "url": "https://zedgehost.com/wordpress-hosting.html",
-              "description": "Rs 9,999/year - Dedicated Resources, Turbo LiteSpeed, Priority 24/7 Support"
+              "description": "Rs 4,999/year - Dedicated Resources, Turbo LiteSpeed, Priority 24/7 Support"
             }
           ]
         }
