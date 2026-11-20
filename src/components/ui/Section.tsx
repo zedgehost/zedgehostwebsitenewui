@@ -1,7 +1,7 @@
 import type { ReactNode } from 'react';
 import { Container } from './Container';
 
-type Tone = 'default' | 'mint' | 'deep';
+type Tone = 'default' | 'mint' | 'deep' | 'black';
 
 interface SectionProps {
   children: ReactNode;
@@ -30,6 +30,7 @@ export function Section({
     'zh-section',
     tone === 'mint' ? 'zh-section--mint' : '',
     tone === 'deep' ? 'zh-section--deep' : '',
+    tone === 'black' ? 'zh-section--black' : '',
     tight ? 'zh-section--tight' : '',
     className,
   ]

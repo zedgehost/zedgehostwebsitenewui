@@ -5,7 +5,10 @@ export function DealGrid({ items }: { items: DealCard[] }) {
   return (
     <div className="zh-deal-grid" data-reveal-group>
       {items.map((item) => (
-        <article className="zh-deal-card" key={item.title}>
+        <article
+          className={`zh-deal-card${item.featured ? ' zh-deal-card--featured' : ''}`}
+          key={item.title}
+        >
           <div className="zh-deal-card__top">
             <span className="zh-icon-tile">
               <Icon name={item.icon} size={24} />

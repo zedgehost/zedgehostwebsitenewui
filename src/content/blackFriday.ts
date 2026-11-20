@@ -9,18 +9,22 @@ import { sharedHostingPlans } from './plans/shared';
 
 /**
  * Black Friday landing page (black-friday.html).
- * Every price and claim here is real: the Unlimited/Enterprise deal is the
+ * Design follows Hostinger's homepage Black Friday look (checked live
+ * 2026-11-20): black-to-violet hero, giant white "Black Friday" headline,
+ * red #FF4646 discount accents, white CTA buttons, black sections with
+ * near-black cards #101011 and a lighter featured card #2F2F33.
+ * Every price and claim is real: the Unlimited/Enterprise deal is the
  * live WHMCS price (Rs 4,999/year, was Rs 9,999), the .com price is the live
  * COM2499 promo, and VPS/Cloud show regular prices with no discount badge.
  * No end date is set for the sale — the page says "Limited time offer" only.
  */
 
 export const blackFridayHero: HeroData = {
-  eyebrow: 'Black Friday Deals 2026',
+  eyebrow: 'UP TO 50% OFF',
   campaign: 'blackfriday',
-  title: 'Black Friday: Unlimited Hosting + FREE .com Domain',
+  title: 'Black Friday',
   subtitle:
-    'One price. Everything included. Unlimited web hosting for just Rs 4,999/year (was Rs 9,999) with a FREE .com domain for the first year. Turbo NVMe SSD, free SSL, cPanel, free migration and 24/7 support. Limited time offer.',
+    'Unlimited web hosting + FREE .com domain for just Rs 4,999/year (was Rs 9,999). Turbo NVMe SSD, free SSL, cPanel, free migration and 24/7 support. Limited time offer.',
   priceFrom: 4999,
   priceRegular: 9999,
   ticks: ['Turbo NVMe SSD', 'Free SSL + cPanel', 'Free website migration', '24/7 support'],
@@ -35,6 +39,7 @@ export const blackFridayDeals: DealCard[] = [
   {
     icon: 'server',
     badge: '50% OFF',
+    featured: true,
     title: 'Web Hosting',
     description: 'Fast, secure hosting that grows with your site. Unlimited plan now half price.',
     price: 'Rs 4,999',

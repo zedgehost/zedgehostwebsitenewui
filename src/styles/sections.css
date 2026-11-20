@@ -214,23 +214,104 @@
   color: #9db8ff;
 }
 
-/* Black Friday hero: orange sale-badge eyebrow + orange deal price
-   (orange is used for the sale badge and the price only, per the
-   Black Friday creative system). */
+/* Black Friday hero — Hostinger homepage style (pixel-sampled 2026-11-20):
+   black-to-violet gradient, giant centred white headline, red discount pill
+   under the headline, white sale price, white CTA buttons. Red #FF4646 is
+   the discount accent; purple #673DE6 is used for featured buttons. */
+.zh-hero--blackfriday {
+  background:
+    radial-gradient(900px 480px at 12% 100%, rgba(107, 78, 216, 0.55), transparent 60%),
+    radial-gradient(900px 480px at 88% 100%, rgba(147, 135, 250, 0.45), transparent 60%),
+    linear-gradient(180deg, #010101 0%, #05030b 30%, #170e33 62%, #3d2687 100%);
+  color: #fff;
+}
+
+.zh-hero--blackfriday .zh-hero__grid {
+  grid-template-columns: minmax(0, 1fr);
+  text-align: center;
+}
+
+.zh-hero--blackfriday .zh-hero__grid > div:first-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.zh-hero--blackfriday h1 {
+  order: 1;
+  color: #fff;
+  font-size: clamp(3.25rem, 10vw, 8rem);
+  line-height: 1.02;
+}
+
 .zh-hero--blackfriday .zh-eyebrow {
-  padding: 6px 14px;
-  border-radius: 999px;
-  background: #ffa726;
-  color: #08143b;
-  letter-spacing: 0.12em;
+  order: 2;
+  margin-top: var(--zh-space-5);
+  margin-bottom: 0;
+  padding: 10px 22px;
+  border-radius: 20px;
+  background: #ff4646;
+  color: #fff;
+  font-size: var(--zh-fs-base);
+  letter-spacing: 0.08em;
 }
 
 .zh-hero--blackfriday .zh-eyebrow::before {
   display: none;
 }
 
+.zh-hero--blackfriday .zh-hero__sub {
+  order: 3;
+  max-width: 640px;
+  margin-inline: auto;
+  color: #e8ecf7;
+}
+
+.zh-hero--blackfriday .zh-hero__price {
+  order: 4;
+  justify-content: center;
+  color: #b9c4e8;
+}
+
 .zh-hero--blackfriday .zh-hero__price strong {
-  color: #ffa726;
+  color: #fff;
+}
+
+.zh-hero--blackfriday .zh-hero__price s {
+  color: #9d9ea4;
+}
+
+.zh-hero--blackfriday .zh-hero__actions {
+  order: 5;
+  justify-content: center;
+}
+
+.zh-hero--blackfriday .zh-btn--primary {
+  background: #fff;
+  border-color: #fff;
+  color: #000;
+  box-shadow: none;
+}
+
+.zh-hero--blackfriday .zh-btn--primary:hover {
+  background: #f0f0f0;
+  border-color: #f0f0f0;
+  color: #000;
+}
+
+.zh-hero--blackfriday .zh-hero__ticks {
+  order: 6;
+  justify-content: center;
+  color: #c6cfe9;
+}
+
+.zh-hero--blackfriday .zh-hero__ticks svg {
+  color: #009e5b;
+}
+
+/* Hostinger-style hero has no product image — text only. */
+.zh-hero--blackfriday .zh-hero__media {
+  display: none;
 }
 
 /* Full-width domain search band (homepage hero): search form + TLD price pills. */
@@ -626,8 +707,8 @@
 .zh-deal-card__badge {
   padding: 5px 10px;
   border-radius: 999px;
-  background: #ffa726;
-  color: #08143b;
+  background: #ff4646;
+  color: #fff;
   font-size: 12px;
   font-weight: 800;
   letter-spacing: 0.06em;
@@ -708,6 +789,78 @@
 
 .zh-deal-card__link svg {
   transition: transform var(--zh-transition);
+}
+
+/* Dark deal cards on black sections (Black Friday page, Hostinger style):
+   near-black cards #101011, featured card lighter #2F2F33, white prices,
+   grey struck prices #9D9EA4, green ticks #009E5B. */
+.zh-section--black .zh-deal-card {
+  background: #101011;
+  border-color: #1c1c1d;
+  border-radius: 24px;
+  box-shadow: none;
+}
+
+.zh-section--black .zh-deal-card:hover {
+  border-color: #333;
+  box-shadow: none;
+}
+
+.zh-section--black .zh-deal-card--featured {
+  background: #2f2f33;
+  border-color: #3a3a3e;
+}
+
+.zh-section--black .zh-deal-card h3 {
+  color: #fff;
+}
+
+.zh-section--black .zh-deal-card p {
+  color: #c9ccd4;
+}
+
+.zh-section--black .zh-deal-card__price strong {
+  color: #fff;
+}
+
+.zh-section--black .zh-deal-card__price s,
+.zh-section--black .zh-deal-card__price span {
+  color: #9d9ea4;
+}
+
+.zh-section--black .zh-deal-card__features {
+  color: #c9ccd4;
+}
+
+.zh-section--black .zh-deal-card__features svg {
+  color: #009e5b;
+}
+
+.zh-section--black .zh-deal-card__link {
+  color: #fff;
+}
+
+.zh-section--black .zh-deal-card .zh-icon-tile {
+  background: #2f2f33;
+  color: #fff;
+}
+
+/* Black Friday page CTA band: black with a violet glow (Hostinger final
+   banner style) instead of the navy band. */
+.zh-bf-page .zh-cta-band {
+  background:
+    radial-gradient(700px 320px at 92% 100%, rgba(103, 61, 230, 0.5), transparent 62%),
+    #000;
+}
+
+.zh-bf-page .zh-cta-band p {
+  color: #c9ccd4;
+}
+
+.zh-bf-page .zh-cta-band .zh-btn--ghost {
+  background: transparent;
+  border-color: #fff;
+  color: #fff;
 }
 
 /* ---------- Split feature ---------- */

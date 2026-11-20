@@ -62,6 +62,8 @@ export interface DealCard {
   icon: IconName;
   /** Discount badge (e.g. '50% OFF'); omit for regular-price cards. */
   badge?: string;
+  /** Featured card (lighter dark background on black sections). */
+  featured?: boolean;
   title: string;
   description: string;
   /** Sale price, e.g. 'Rs 4,999'. */
