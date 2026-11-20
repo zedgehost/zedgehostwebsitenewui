@@ -13,14 +13,15 @@ import { sharedHostingPlans } from './plans/shared';
 export const homeSeo = seo.home;
 
 export const homeHero: HeroData = {
-  eyebrow: 'Web Hosting in Pakistan',
-  title: 'Best Web Hosting in Pakistan for Business, Startups & Blogs',
+  eyebrow: 'Black Friday Deal',
+  campaign: 'blackfriday',
+  title: 'Black Friday: Unlimited Web Hosting + FREE .com Domain',
   subtitle:
-    'Launch your website with the best web hosting in Pakistan. Zedgehost offers cheap, fast NVMe SSD hosting with 99.9% uptime, free SSL, cPanel, and 24/7 local support.',
-  priceFrom: 1499,
-  priceRegular: 2999,
-  ticks: ['Free SSL certificate', 'cPanel included', '24/7 local support'],
-  primaryCta: { label: 'Get Started', href: '#plans' },
+    'One price. Everything included. Turbo NVMe SSD, free SSL, cPanel, free migration and 24/7 support — unlimited hosting for just Rs 4,999/year, with a FREE .com domain for the first year. Limited time offer.',
+  priceFrom: 4999,
+  priceRegular: 9999,
+  ticks: ['Turbo NVMe SSD', 'Free SSL + cPanel', 'Free website migration', '24/7 support'],
+  primaryCta: { label: 'Claim Black Friday Deal', href: '#plans' },
   secondaryCta: { label: 'View Hosting Plans', href: 'shared-hosting.html' },
   image: { src: '/assets/img/hero-home-v3.webp', alt: 'ZedgeHost web hosting in Pakistan' },
   transparentImage: true,
@@ -31,8 +32,6 @@ export const homeHero: HeroData = {
       tld: '.com',
       price: 'Rs 2,999',
       period: 'for 1 year',
-      promoPrice: 'Rs 2,499',
-      promoCode: 'COM2499',
     },
     { tld: '.pk', price: 'Rs 4,999', period: 'for 2 years' },
   ],
