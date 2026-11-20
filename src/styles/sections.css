@@ -214,6 +214,25 @@
   color: #9db8ff;
 }
 
+/* Black Friday hero: orange sale-badge eyebrow + orange deal price
+   (orange is used for the sale badge and the price only, per the
+   Black Friday creative system). */
+.zh-hero--blackfriday .zh-eyebrow {
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: #ffa726;
+  color: #08143b;
+  letter-spacing: 0.12em;
+}
+
+.zh-hero--blackfriday .zh-eyebrow::before {
+  display: none;
+}
+
+.zh-hero--blackfriday .zh-hero__price strong {
+  color: #ffa726;
+}
+
 /* Full-width domain search band (homepage hero): search form + TLD price pills. */
 .zh-hero--search-band {
   /* Less space above the search bar: the band sits right under the header. */
@@ -568,6 +587,129 @@
   transition: transform var(--zh-transition);
 }
 
+/* ---------- Black Friday deal grid ---------- */
+.zh-deal-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--zh-space-4);
+}
+
+.zh-deal-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: var(--zh-space-5);
+  border: 1px solid var(--zh-border);
+  border-radius: var(--zh-radius);
+  background: #fff;
+  box-shadow: var(--zh-shadow-sm);
+  transition:
+    transform var(--zh-transition),
+    box-shadow var(--zh-transition),
+    border-color var(--zh-transition);
+}
+
+.zh-deal-card:hover {
+  transform: translateY(-4px);
+  border-color: #d3ddf2;
+  box-shadow: var(--zh-shadow-md);
+}
+
+.zh-deal-card__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: var(--zh-space-4);
+}
+
+.zh-deal-card__badge {
+  padding: 5px 10px;
+  border-radius: 999px;
+  background: #ffa726;
+  color: #08143b;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+}
+
+.zh-deal-card h3 {
+  font-size: var(--zh-fs-lg);
+}
+
+.zh-deal-card p {
+  margin-top: 6px;
+  color: var(--zh-muted);
+  font-size: 13.5px;
+  line-height: 1.6;
+}
+
+.zh-deal-card__price {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px;
+  margin-top: var(--zh-space-4);
+}
+
+.zh-deal-card__price strong {
+  color: var(--zh-navy);
+  font-size: 1.6rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+
+.zh-deal-card__price s {
+  color: #8a94a6;
+}
+
+.zh-deal-card__price span {
+  color: var(--zh-muted);
+  font-size: var(--zh-fs-sm);
+}
+
+.zh-deal-card__features {
+  display: grid;
+  gap: 8px;
+  margin-top: var(--zh-space-4);
+  padding: 0;
+  list-style: none;
+  color: var(--zh-muted);
+  font-size: 13.5px;
+}
+
+.zh-deal-card__features li {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.zh-deal-card__features svg {
+  flex: none;
+  margin-top: 2px;
+  color: #2a862e;
+}
+
+.zh-deal-card__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: auto;
+  padding-top: var(--zh-space-4);
+  color: var(--zh-blue-dark);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.zh-deal-card:hover .zh-deal-card__link {
+  gap: 9px;
+}
+
+.zh-deal-card__link svg {
+  transition: transform var(--zh-transition);
+}
+
 /* ---------- Split feature ---------- */
 .zh-split {
   display: grid;
@@ -855,6 +997,7 @@
   }
 
   .zh-hosting-grid,
+  .zh-deal-grid,
   .zh-feature-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -876,6 +1019,7 @@
 
 @media (max-width: 640px) {
   .zh-hosting-grid,
+  .zh-deal-grid,
   .zh-feature-grid,
   .zh-support__cards,
   .zh-about-grid,

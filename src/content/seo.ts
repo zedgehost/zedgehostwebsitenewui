@@ -42,6 +42,7 @@ export const seo = {
   newGtlds: requireSeo(products, 'new-gtlds'),
   freeGtlds: requireSeo(products, 'free-gtlds'),
   domainPromos: requireSeo(products, 'domain-promos'),
+  blackFriday: requireSeo(products, 'black-friday'),
   bulkTransfer: requireSeo(products, 'bulk-transfer'),
   bulkRegister: requireSeo(products, 'domain-bulk-register'),
   domainSuggestion: requireSeo(products, 'domain-name-suggestion'),

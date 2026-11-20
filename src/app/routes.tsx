@@ -1,6 +1,7 @@
 import type { ComponentType, ReactElement } from 'react';
 import type { SeoData } from '../content/types';
 import { AboutPage } from '../pages/AboutPage';
+import { BlackFridayPage } from '../pages/BlackFridayPage';
 import { HomePage } from '../pages/HomePage';
 import {
   BasicVpsPage,
@@ -99,6 +100,7 @@ export const routes: RouteDefinition[] = [
   productRoute('new-gtlds.html', NewGtldsPage, seo.newGtlds),
   productRoute('free-gtlds.html', FreeGtldsPage, seo.freeGtlds),
   productRoute('domain-promos.html', DomainPromosPage, seo.domainPromos),
+  productRoute('black-friday.html', BlackFridayPage, seo.blackFriday),
   productRoute('bulk-transfer.html', BulkTransferPage, seo.bulkTransfer),
   productRoute('domain-bulk-register.html', BulkRegisterPage, seo.bulkRegister),
   productRoute('domain-name-suggestion.html', NameSuggestionPage, seo.domainSuggestion),

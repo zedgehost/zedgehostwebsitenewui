@@ -16,6 +16,8 @@ export interface Cta {
 
 export interface HeroData {
   eyebrow?: string;
+  /** Seasonal campaign styling for the hero (e.g. 'blackfriday' renders the orange sale badge). */
+  campaign?: 'blackfriday';
   title: string;
   subtitle?: string;
   priceFrom?: number;
@@ -52,6 +54,25 @@ export interface HostingType {
   description: string;
   href: string;
   popular?: boolean;
+}
+
+/** One card on the Black Friday deals grid. Only real discounts get a badge;
+    regular-price products (VPS, Cloud) show their price with no badge. */
+export interface DealCard {
+  icon: IconName;
+  /** Discount badge (e.g. '50% OFF'); omit for regular-price cards. */
+  badge?: string;
+  title: string;
+  description: string;
+  /** Sale price, e.g. 'Rs 4,999'. */
+  price: string;
+  /** Regular price shown struck through next to the sale price. */
+  wasPrice?: string;
+  /** Billing period shown after the price, e.g. '/year'. */
+  period: string;
+  features: string[];
+  ctaLabel: string;
+  href: string;
 }
 
 export interface PlanSpec {
