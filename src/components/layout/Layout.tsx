@@ -1,7 +1,8 @@
 import type { ReactNode } from 'react';
 import { Footer } from './Footer';
 import { Header } from './Header';
-import { SalePopup } from '../SalePopup';
+// SalePopup disabled for now (user order 20 Nov 2026) — uncomment both lines to re-enable.
+// import { SalePopup } from '../SalePopup';
 import { TopBar } from './TopBar';
 import { WhatsAppFloat } from './WhatsAppFloat';
 
@@ -16,7 +17,7 @@ export function Layout({ currentPath, children }: { currentPath: string; childre
       <main id="main">{children}</main>
       <Footer />
       <WhatsAppFloat />
-      <SalePopup />
+      {/* <SalePopup /> — disabled for now, see import note above */}
     </>
   );
 }

@@ -16,8 +16,6 @@ export interface Cta {
 
 export interface HeroData {
   eyebrow?: string;
-  /** Seasonal campaign styling for the hero (e.g. 'blackfriday' renders the orange sale badge). */
-  campaign?: 'blackfriday';
   title: string;
   subtitle?: string;
   priceFrom?: number;

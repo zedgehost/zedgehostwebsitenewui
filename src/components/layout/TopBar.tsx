@@ -13,7 +13,7 @@ function TickerHalf({ hidden }: { hidden?: boolean }) {
     <span className="zh-ticker__half" aria-hidden={hidden || undefined}>
       {[0, 1, 2].map((index) => (
         <span key={index} className="zh-ticker__item">
-          <strong>11.11 SALE</strong> — Web Hosting with FREE .com Domain — Rs 3,999/year — 40% OFF
+          <strong>BLACK FRIDAY</strong> — Unlimited Hosting with FREE .com Domain — Rs 4,999/year — 50% OFF
         </span>
       ))}
     </span>

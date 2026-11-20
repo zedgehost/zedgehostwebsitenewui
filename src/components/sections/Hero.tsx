@@ -20,7 +20,7 @@ export function Hero({ data }: { data: HeroData }) {
 
   return (
     <section
-      className={`zh-hero${isDark ? ' zh-hero--dark' : ''}${data.tldPills ? ' zh-hero--search-band' : ''}${data.campaign === 'blackfriday' ? ' zh-hero--blackfriday' : ''}`}
+      className={`zh-hero${isDark ? ' zh-hero--dark' : ''}${data.tldPills ? ' zh-hero--search-band' : ''}`}
     >
       <Container>
         {data.tldPills && (
