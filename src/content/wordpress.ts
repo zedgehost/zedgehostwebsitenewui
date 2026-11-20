@@ -93,7 +93,6 @@ const plans: Plan[] = [
       bandwidthSpec,
       emailSpec('50'),
       databaseSpec('Unlimited'),
-      { value: 'Free', label: '.com Domain', highlight: true },
       { value: 'Free', label: 'SSL Certificate' },
       { value: '24/7', label: 'Dedicated WP Support' },
       { value: 'AI', label: 'Website Builder' },
@@ -102,6 +101,7 @@ const plans: Plan[] = [
       { value: 'Automatic', label: 'WP Core Updates' },
     ],
     more: [
+      'Free .com Domain (1st year)',
       'Free cPanel Control Panel',
       'Free WordPress Migration',
       '99.9% Uptime Guarantee',
@@ -129,7 +129,6 @@ const plans: Plan[] = [
       bandwidthSpec,
       emailSpec('Unlimited'),
       databaseSpec('Unlimited'),
-      { value: 'Free', label: '.com Domain', highlight: true },
       { value: 'Free', label: 'SSL Certificate' },
       { value: '24/7 Priority', label: 'VIP WP Support' },
       { value: 'AI', label: 'Website Builder' },
@@ -138,6 +137,7 @@ const plans: Plan[] = [
       { value: 'Automatic', label: 'WP Core Updates' },
     ],
     more: [
+      'Free .com Domain (1st year)',
       'Free cPanel Control Panel',
       'VIP White-Glove WP Migration',
       '99.99% Uptime SLA',

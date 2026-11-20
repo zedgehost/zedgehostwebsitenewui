@@ -26,8 +26,10 @@ function PlanCard({ plan }: { plan: Plan }) {
         {plan.wasPrice !== undefined && (
           <s className="zh-plan__was">{formatPrice(plan.wasPrice, currency)}</s>
         )}
-        {formatPrice(amount, currency)}
-        <span>/ {period}</span>
+        <span className="zh-plan__current">
+          {formatPrice(amount, currency)}
+          <span>/ {period}</span>
+        </span>
       </p>
       <p className="zh-plan__note">{note}</p>
 

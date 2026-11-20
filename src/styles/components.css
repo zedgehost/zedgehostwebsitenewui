@@ -373,6 +373,7 @@
 
 .zh-plan__price {
   display: flex;
+  flex-wrap: wrap;
   align-items: baseline;
   gap: 5px;
   margin: var(--zh-space-4) 0 4px;
@@ -383,7 +384,11 @@
   line-height: 1.1;
 }
 
-.zh-plan__price span {
+.zh-plan__current {
+  white-space: nowrap;
+}
+
+.zh-plan__current span {
   font-size: 13px;
   font-weight: 500;
   letter-spacing: 0;
@@ -396,9 +401,10 @@
   letter-spacing: 0;
   color: var(--zh-muted);
   text-decoration: line-through;
+  white-space: nowrap;
 }
 
-.zh-plan--popular .zh-plan__price span {
+.zh-plan--popular .zh-plan__current span {
   color: #a9bce0;
 }
 

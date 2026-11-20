@@ -1,6 +1,8 @@
 import type { ArticleInline, BlogCardData, BlogIndexData, BlogPostData, SeoData } from '../types';
 
 import buyCheapDomain from './posts/blog-buy-cheap-com-domain-pakistan.json';
+import payJazzcash from './posts/blog-pay-hosting-jazzcash-easypaisa-pakistan.json';
+import sharedVsVps from './posts/blog-shared-hosting-vs-vps-pakistan.json';
 import hostingBahawalpur from './posts/blog-cheap-web-hosting-bahawalpur.json';
 import hostingFaisalabad from './posts/blog-cheap-web-hosting-faisalabad.json';
 import hostingHyderabad from './posts/blog-cheap-web-hosting-hyderabad.json';
@@ -93,6 +95,8 @@ const rawPosts: RawPost[] = [
   hostingLahore,
   hostingCost,
   buyCheapDomain,
+  sharedVsVps,
+  payJazzcash,
 ] as unknown as RawPost[];
 
 /** Newest first, matching the legacy listing order. */

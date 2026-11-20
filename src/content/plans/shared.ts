@@ -72,8 +72,9 @@ export const sharedHostingPlans: Plan[] = [
       ctaHref: 'https://my.zedgehost.com/index.php?rp=/store/web-hosting/business',
       popular: true,
       badge: 'Popular',
-      specs: sharedSpecs('20', '100 GB', '50', 'Unlimited', true),
+      specs: sharedSpecs('20', '100 GB', '50', 'Unlimited'),
       more: [
+        'Free .com Domain (1st year)',
         'Free cPanel Control Panel',
         'Free Website Migration',
         '99.9% Uptime Guarantee',
@@ -101,7 +102,6 @@ export const sharedHostingPlans: Plan[] = [
         { value: 'Unmetered', label: 'Bandwidth' },
         { value: 'Unlimited', label: 'Email Accounts' },
         { value: 'Unlimited', label: 'MySQL Databases' },
-        { value: 'Free', label: '.com Domain', highlight: true },
         { value: 'Unlimited', label: 'FTP Accounts' },
         { value: 'Free', label: 'SSL Certificate' },
         { value: '24/7 Priority', label: 'VIP Support' },
@@ -110,6 +110,7 @@ export const sharedHostingPlans: Plan[] = [
         { value: 'Multi-Language', label: 'Python, Node.js, PHP' },
       ],
       more: [
+        'Free .com Domain (1st year)',
         'Free cPanel Control Panel',
         'VIP White-Glove Migration',
         '99.99% Uptime SLA',

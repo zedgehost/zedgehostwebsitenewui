@@ -21,6 +21,22 @@
   "subtitle": "Practical guides about web hosting in Pakistan — written to answer the questions people actually search for, with real prices and no jargon. New guides are added regularly.",
   "cards": [
     {
+      "href": "blog-shared-hosting-vs-vps-pakistan.html",
+      "category": "Hosting Guides",
+      "title": "Shared Hosting vs VPS Hosting: Which One Do You Need in Pakistan? (2026)",
+      "description": "Shared hosting in Pakistan starts at Rs 1,499 per year and VPS hosting at Rs 1,699 per month. Real prices, dedicated vs shared resources, and which one fits your website.",
+      "meta": "20 November 2026 · 7 min read",
+      "ctaLabel": "Read the guide"
+    },
+    {
+      "href": "blog-pay-hosting-jazzcash-easypaisa-pakistan.html",
+      "category": "Hosting Guides",
+      "title": "Can I Pay for Web Hosting with JazzCash or Easypaisa in Pakistan? (2026): PKR Payments Explained",
+      "description": "Pay for web hosting in Pakistan with JazzCash or Easypaisa in PKR at ZedgeHost. Plans from Rs 1,499 per year, plus Raast and bank transfer. How to pay, step by step.",
+      "meta": "12 November 2026 · 6 min read",
+      "ctaLabel": "Read the guide"
+    },
+    {
       "href": "blog-buy-cheap-com-domain-pakistan.html",
       "category": "Domain Guides",
       "title": "How to Buy a Cheap .com Domain in Pakistan (2026): Steps, Price & What to Check Before You Buy",
