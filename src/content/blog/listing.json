@@ -21,6 +21,14 @@
   "subtitle": "Practical guides about web hosting in Pakistan — written to answer the questions people actually search for, with real prices and no jargon. New guides are added regularly.",
   "cards": [
     {
+      "href": "blog-register-pk-domain-pakistan.html",
+      "category": "Domain Guides",
+      "title": "How to Register a .pk Domain in Pakistan (2026): A Beginner's Checklist Before You Pay",
+      "description": "A .pk domain at ZedgeHost costs Rs 4,999 for 2 years, and PKNIC requires a 2-year minimum term. Which ending to pick, the owner details to get right, and 7 mistakes to avoid before you pay.",
+      "meta": "21 November 2026 · 6 min read",
+      "ctaLabel": "Read the guide"
+    },
+    {
       "href": "blog-shared-hosting-vs-vps-pakistan.html",
       "category": "Hosting Guides",
       "title": "Shared Hosting vs VPS Hosting: Which One Do You Need in Pakistan? (2026)",
