@@ -4,6 +4,7 @@ import buyCheapDomain from './posts/blog-buy-cheap-com-domain-pakistan.json';
 import payJazzcash from './posts/blog-pay-hosting-jazzcash-easypaisa-pakistan.json';
 import registerPkDomain from './posts/blog-register-pk-domain-pakistan.json';
 import startWordpressBlog from './posts/blog-start-wordpress-blog-pakistan.json';
+import moveWebsite from './posts/blog-move-website-new-host-without-downtime.json';
 import sharedVsVps from './posts/blog-shared-hosting-vs-vps-pakistan.json';
 import hostingBahawalpur from './posts/blog-cheap-web-hosting-bahawalpur.json';
 import hostingFaisalabad from './posts/blog-cheap-web-hosting-faisalabad.json';
@@ -101,6 +102,7 @@ const rawPosts: RawPost[] = [
   payJazzcash,
   registerPkDomain,
   startWordpressBlog,
+  moveWebsite,
 ] as unknown as RawPost[];
 
 /** Newest first, matching the legacy listing order. */

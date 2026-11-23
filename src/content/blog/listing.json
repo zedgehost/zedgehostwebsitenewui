@@ -21,6 +21,14 @@
   "subtitle": "Practical guides about web hosting in Pakistan — written to answer the questions people actually search for, with real prices and no jargon. New guides are added regularly.",
   "cards": [
     {
+      "href": "blog-move-website-new-host-without-downtime.html",
+      "category": "Hosting Guides",
+      "title": "How to Move Your Website to a New Host Without Downtime (2026): Free Migration, Step by Step",
+      "description": "Move your website to a new host without downtime: set up hosting, copy files and database, test before DNS, then switch. Free migration is included in every ZedgeHost plan, from Rs 1,499 per year.",
+      "meta": "23 November 2026 · 7 min read",
+      "ctaLabel": "Read the guide"
+    },
+    {
       "href": "blog-start-wordpress-blog-pakistan.html",
       "category": "WordPress Guides",
       "title": "How to Start a WordPress Blog in Pakistan (2026): cPanel One-Click Install, Step by Step",
