@@ -21,6 +21,14 @@
   "subtitle": "Practical guides about web hosting in Pakistan — written to answer the questions people actually search for, with real prices and no jargon. New guides are added regularly.",
   "cards": [
     {
+      "href": "blog-what-is-cloud-hosting.html",
+      "category": "Hosting Guides",
+      "title": "What Is Cloud Hosting and When Do You Need It? (2026): A Simple Guide for Pakistan",
+      "description": "What is cloud hosting, and when do you need it? A simple guide for Pakistan: how it works, cloud vs shared vs VPS, the 6 signs you have outgrown shared hosting, and ZedgeHost cloud prices from Rs 9,999 per year.",
+      "meta": "24 November 2026 · 7 min read",
+      "ctaLabel": "Read the guide"
+    },
+    {
       "href": "blog-move-website-new-host-without-downtime.html",
       "category": "Hosting Guides",
       "title": "How to Move Your Website to a New Host Without Downtime (2026): Free Migration, Step by Step",
