@@ -21,6 +21,14 @@
   "subtitle": "Practical guides about web hosting in Pakistan — written to answer the questions people actually search for, with real prices and no jargon. New guides are added regularly.",
   "cards": [
     {
+      "href": "blog-vps-server-locations-explained.html",
+      "category": "Hosting Guides",
+      "title": "VPS Server Locations Explained (2026): How to Choose New Jersey, Los Angeles or Dallas",
+      "description": "VPS server locations explained: New Jersey, Los Angeles and Dallas compared. Pick the location closest to your users, learn when location matters less, and see ZedgeHost VPS plans from Rs 1,699 per month.",
+      "meta": "25 November 2026 · 7 min read",
+      "ctaLabel": "Read the guide"
+    },
+    {
       "href": "blog-what-is-cloud-hosting.html",
       "category": "Hosting Guides",
       "title": "What Is Cloud Hosting and When Do You Need It? (2026): A Simple Guide for Pakistan",
