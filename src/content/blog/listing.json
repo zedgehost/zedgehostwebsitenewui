@@ -21,6 +21,14 @@
   "subtitle": "Practical guides about web hosting in Pakistan — written to answer the questions people actually search for, with real prices and no jargon. New guides are added regularly.",
   "cards": [
     {
+      "href": "blog-choose-domain-name-pakistani-business.html",
+      "category": "Domain Guides",
+      "title": "How to Choose a Domain Name for a Pakistani Business (2026): A Practical Checklist",
+      "description": "How to choose a domain name for a Pakistani business: pick a short brandable name, choose between .com and .pk, check availability, and avoid the 6 common mistakes. A .com costs Rs 2,999 for the first year and a .pk costs Rs 4,999 for 2 years at ZedgeHost.",
+      "meta": "26 November 2026 · 7 min read",
+      "ctaLabel": "Read the guide"
+    },
+    {
       "href": "blog-vps-server-locations-explained.html",
       "category": "Hosting Guides",
       "title": "VPS Server Locations Explained (2026): How to Choose New Jersey, Los Angeles or Dallas",
