@@ -201,7 +201,7 @@
        "name": "What is the best WordPress hosting in Pakistan?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Zedgehost provides the best managed WordPress hosting in Pakistan featuring LiteSpeed SSD caching, free SSL certificates, automatic daily backups, and 24/7 local PKR customer support."
+        "text": "Zedgehost provides the best managed WordPress hosting in Pakistan featuring LiteSpeed SSD caching, free SSL certificates, automatic weekly backups, and 24/7 local PKR customer support."
        }
       },
       {
@@ -298,7 +298,7 @@
        "priceValidUntil": "2027-12-31",
        "availability": "https://schema.org/InStock",
        "url": "https://zedgehost.com/wordpress-hosting.html",
-       "description": "Rs 3,999/year - Unlimited NVMe SSD, Free .com Domain, Daily Backups"
+       "description": "Rs 3,999/year - Unlimited NVMe SSD, Free .com Domain, Weekly Backups"
       },
       {
        "@type": "Offer",

@@ -24,7 +24,7 @@ const hero: HeroData = {
     { icon: 'lock', label: 'Free SSL Certificate' },
     { icon: 'globe', label: 'Unlimited Bandwidth' },
     { icon: 'sparkles', label: '1-Click App Installer' },
-    { icon: 'backup', label: 'Daily Backups' },
+    { icon: 'backup', label: 'Weekly Backups' },
     { icon: 'headset', label: '24/7 Local Support' },
   ],
   primaryCta: { label: 'Get Started Now', href: '#plans' },

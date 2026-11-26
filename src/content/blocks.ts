@@ -91,7 +91,7 @@ export function securitySection(imageSrc: string, imageAlt: string): SplitSectio
       'Advanced Firewall Protection',
       'Real-Time Malware Scanning',
       'Free SSL Certificates',
-      'Automated Daily Backups',
+      'Automated Weekly Backups',
     ],
     icon: 'shield',
     image: { src: imageSrc, alt: imageAlt },

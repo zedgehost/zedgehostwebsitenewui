@@ -34,7 +34,7 @@
           "name": "What is the cheapest web hosting in Islamabad?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "ZedgeHost shared hosting starts at Rs 1,499 per year (Starter plan), which includes cPanel, a free SSL certificate, daily backups and 24/7 support. You order and pay online, so the same price applies whether you are in Islamabad or anywhere else in Pakistan."
+            "text": "ZedgeHost shared hosting starts at Rs 1,499 per year (Starter plan), which includes cPanel, a free SSL certificate, weekly backups and 24/7 support. You order and pay online, so the same price applies whether you are in Islamabad or anywhere else in Pakistan."
           }
         },
         {
@@ -238,7 +238,7 @@
       "kind": "paragraph",
       "content": [
         {
-          "text": "Within each type there are larger plans: shared and WordPress hosting go up to Rs 4,999 per year, cloud hosting up to Rs 24,999 per year, and VPS hosting up to Rs 4,999 per month. Every plan includes a free SSL certificate, free cPanel, daily backups, free website migration and 24/7 support, with a 30-day money-back guarantee. “Cheap” only helps if those are included in the price — a lower headline price with SSL, backups and migration added at checkout is not actually cheaper."
+          "text": "Within each type there are larger plans: shared and WordPress hosting go up to Rs 4,999 per year, cloud hosting up to Rs 24,999 per year, and VPS hosting up to Rs 4,999 per month. Every plan includes a free SSL certificate, free cPanel, weekly backups, free website migration and 24/7 support, with a 30-day money-back guarantee. “Cheap” only helps if those are included in the price — a lower headline price with SSL, backups and migration added at checkout is not actually cheaper."
         }
       ]
     },
@@ -453,7 +453,7 @@
         "strong": true
       },
       {
-        "text": " Shared hosting starts at Rs 1,499 per year with free SSL, free cPanel, daily backups, free migration, PKR payments and 24/7 support — and a 30-day money-back guarantee."
+        "text": " Shared hosting starts at Rs 1,499 per year with free SSL, free cPanel, weekly backups, free migration, PKR payments and 24/7 support — and a 30-day money-back guarantee."
       }
     ],
     "cta": {
@@ -464,7 +464,7 @@
   "faq": [
     {
       "q": "What is the cheapest web hosting in Islamabad?",
-      "a": "ZedgeHost shared hosting starts at Rs 1,499 per year (Starter plan), which includes cPanel, a free SSL certificate, daily backups and 24/7 support. You order and pay online, so the same price applies whether you are in Islamabad or anywhere else in Pakistan."
+      "a": "ZedgeHost shared hosting starts at Rs 1,499 per year (Starter plan), which includes cPanel, a free SSL certificate, weekly backups and 24/7 support. You order and pay online, so the same price applies whether you are in Islamabad or anywhere else in Pakistan."
     },
     {
       "q": "Can I pay for web hosting with JazzCash or Easypaisa from Islamabad?",
