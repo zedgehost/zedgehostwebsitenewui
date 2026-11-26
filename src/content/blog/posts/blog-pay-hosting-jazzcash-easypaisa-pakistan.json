@@ -42,7 +42,7 @@
           "name": "How much does web hosting cost in Pakistan in PKR?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "At ZedgeHost, shared and WordPress hosting start at Rs 1,499 per year (Starter), then Rs 2,999 (Standard), Rs 3,999 (Business) and Rs 4,999 (Enterprise). Cloud hosting is Rs 9,999–25,000 per year and VPS is Rs 1,699–4,999 per month. Every plan includes a free SSL certificate, free cPanel, daily backups, free migration and 24/7 support."
+            "text": "At ZedgeHost, shared and WordPress hosting start at Rs 1,499 per year (Starter), then Rs 2,999 (Standard), Rs 3,999 (Business) and Rs 4,999 (Enterprise). Cloud hosting is Rs 9,999–25,000 per year and VPS is Rs 1,699–4,999 per month. Every plan includes a free SSL certificate, free cPanel, weekly backups, free migration and 24/7 support."
           }
         },
         {
@@ -285,7 +285,7 @@
             "href": "linux-vps-server.html"
           },
           {
-            "text": " suit bigger sites that need more power. Every plan includes a free SSL certificate, free cPanel, daily backups, free website migration and 24/7 support, plus a 30-day money-back guarantee."
+            "text": " suit bigger sites that need more power. Every plan includes a free SSL certificate, free cPanel, weekly backups, free website migration and 24/7 support, plus a 30-day money-back guarantee."
           }
         ],
         [
@@ -452,7 +452,7 @@
         "strong": true
       },
       {
-        "text": " Shared and WordPress hosting start at Rs 1,499 per year at ZedgeHost — free SSL, free cPanel, daily backups, free migration and 24/7 support included — and you can pay in PKR with JazzCash, Easypaisa, Raast or bank transfer."
+        "text": " Shared and WordPress hosting start at Rs 1,499 per year at ZedgeHost — free SSL, free cPanel, weekly backups, free migration and 24/7 support included — and you can pay in PKR with JazzCash, Easypaisa, Raast or bank transfer."
       }
     ],
     "cta": {
@@ -467,7 +467,7 @@
     },
     {
       "q": "How much does web hosting cost in Pakistan in PKR?",
-      "a": "At ZedgeHost, shared and WordPress hosting start at Rs 1,499 per year (Starter), then Rs 2,999 (Standard), Rs 3,999 (Business) and Rs 4,999 (Enterprise). Cloud hosting is Rs 9,999–25,000 per year and VPS is Rs 1,699–4,999 per month. Every plan includes a free SSL certificate, free cPanel, daily backups, free migration and 24/7 support."
+      "a": "At ZedgeHost, shared and WordPress hosting start at Rs 1,499 per year (Starter), then Rs 2,999 (Standard), Rs 3,999 (Business) and Rs 4,999 (Enterprise). Cloud hosting is Rs 9,999–25,000 per year and VPS is Rs 1,699–4,999 per month. Every plan includes a free SSL certificate, free cPanel, weekly backups, free migration and 24/7 support."
     },
     {
       "q": "Do I need a credit card to buy web hosting in Pakistan?",

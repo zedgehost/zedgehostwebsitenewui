@@ -119,7 +119,7 @@ export const websiteBackupPage: ProductPageData = {
     priceFrom: 697,
     priceSuffix: 'month',
     chips: [
-      { icon: 'backup', label: 'Daily Automatic Backups' },
+      { icon: 'backup', label: 'Weekly Automatic Backups' },
       { icon: 'refresh', label: 'One-Click Restore' },
       { icon: 'shield', label: 'Malware Change Monitoring' },
       { icon: 'mail', label: 'File Change Alerts' },
@@ -140,7 +140,7 @@ export const websiteBackupPage: ProductPageData = {
         eyebrow: 'CodeGuard',
         title: 'Automated Website Backup Protection',
         paragraphs: [
-          'CodeGuard is a powerful website backup and monitoring solution that automatically backs up your website and database on a daily basis. It helps protect your valuable data from accidental deletions, hacking attempts, malware infections, and unexpected server issues, ensuring your website can be restored quickly whenever needed.',
+          'CodeGuard is a powerful website backup and monitoring solution that automatically backs up your website and database on a weekly basis. It helps protect your valuable data from accidental deletions, hacking attempts, malware infections, and unexpected server issues, ensuring your website can be restored quickly whenever needed.',
           'With CodeGuard, you get automated backups, one-click website restoration, change monitoring, and secure cloud storage for your website files. Whether you run a personal blog, business website, or eCommerce store, CodeGuard provides peace of mind by keeping your website data safe, secure, and recoverable at all times.',
         ],
       },

@@ -148,7 +148,7 @@
             "strong": true
           },
           {
-            "text": " Managed WordPress hosting automates core updates, daily backups, and security scanning so you can focus on growing your business."
+            "text": " Managed WordPress hosting automates core updates, weekly backups, and security scanning so you can focus on growing your business."
           }
         ],
         [
@@ -414,13 +414,13 @@
     {
       "kind": "heading",
       "level": 3,
-      "text": "C. Robust Security & Automated Daily Backups"
+      "text": "C. Robust Security & Automated Weekly Backups"
     },
     {
       "kind": "paragraph",
       "content": [
         {
-          "text": "WordPress sites are frequent targets for brute-force attacks and malware infections. Premium WordPress hosting in Pakistan should include automatic Web Application Firewalls (WAF), free SSL certificates, brute-force protection, and daily offsite backups for instant disaster recovery."
+          "text": "WordPress sites are frequent targets for brute-force attacks and malware infections. Premium WordPress hosting in Pakistan should include automatic Web Application Firewalls (WAF), free SSL certificates, brute-force protection, and weekly offsite backups for instant disaster recovery."
         }
       ]
     },

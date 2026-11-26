@@ -253,7 +253,7 @@
       "kind": "paragraph",
       "content": [
         {
-          "text": "Server downtime means lost revenue. A reliable hosting provider offers a guaranteed 99.9% uptime SLA backed by automated daily backups and free Let's Encrypt SSL certificates to secure user data and boost Google SEO signals."
+          "text": "Server downtime means lost revenue. A reliable hosting provider offers a guaranteed 99.9% uptime SLA backed by automated weekly backups and free Let's Encrypt SSL certificates to secure user data and boost Google SEO signals."
         }
       ]
     },

@@ -151,7 +151,7 @@ const resellerSections: ProductSection[] = [
         'Advanced Firewall Protection',
         'Real-Time Malware Scanning',
         'Free SSL Certificates',
-        'Automated Daily Backups',
+        'Automated Weekly Backups',
       ],
       icon: 'shield',
       image: { src: '/assets/img/split-security.webp', alt: 'Free SSL and reseller hosting security' },

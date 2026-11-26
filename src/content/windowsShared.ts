@@ -101,7 +101,7 @@ export const windowsSharedPage: ProductPageData = {
           'Advanced Firewall Protection',
           'Real-Time Malware Scanning',
           'Free SSL Certificates',
-          'Automated Daily Backups',
+          'Automated Weekly Backups',
         ],
         icon: 'shield',
         image: { src: '/assets/img/split-security.webp', alt: 'Windows hosting security' },
