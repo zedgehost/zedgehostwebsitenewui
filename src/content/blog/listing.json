@@ -21,6 +21,14 @@
   "subtitle": "Practical guides about web hosting in Pakistan — written to answer the questions people actually search for, with real prices and no jargon. New guides are added regularly.",
   "cards": [
     {
+      "href": "blog-why-pakistani-business-website-needs-ssl.html",
+      "category": "Security Guides",
+      "title": "Why Every Pakistani Business Website Needs SSL (2026): What Free SSL Covers",
+      "description": "Why every Pakistani business website needs SSL, even if it sells nothing online: what free SSL covers, what it does not cover, free vs paid SSL, and how to get free SSL with hosting from Rs 1,499 per year at ZedgeHost.",
+      "meta": "27 November 2026 · 7 min read",
+      "ctaLabel": "Read the guide"
+    },
+    {
       "href": "blog-choose-domain-name-pakistani-business.html",
       "category": "Domain Guides",
       "title": "How to Choose a Domain Name for a Pakistani Business (2026): A Practical Checklist",

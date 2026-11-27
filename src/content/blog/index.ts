@@ -8,6 +8,7 @@ import moveWebsite from './posts/blog-move-website-new-host-without-downtime.jso
 import cloudHosting from './posts/blog-what-is-cloud-hosting.json';
 import vpsLocations from './posts/blog-vps-server-locations-explained.json';
 import chooseDomainName from './posts/blog-choose-domain-name-pakistani-business.json';
+import businessNeedsSsl from './posts/blog-why-pakistani-business-website-needs-ssl.json';
 import sharedVsVps from './posts/blog-shared-hosting-vs-vps-pakistan.json';
 import hostingBahawalpur from './posts/blog-cheap-web-hosting-bahawalpur.json';
 import hostingFaisalabad from './posts/blog-cheap-web-hosting-faisalabad.json';
@@ -109,6 +110,7 @@ const rawPosts: RawPost[] = [
   cloudHosting,
   vpsLocations,
   chooseDomainName,
+  businessNeedsSsl,
 ] as unknown as RawPost[];
 
 /** Newest first, matching the legacy listing order. */
