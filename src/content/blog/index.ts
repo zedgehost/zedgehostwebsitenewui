@@ -23,6 +23,7 @@ import hostingQuetta from './posts/blog-cheap-web-hosting-quetta.json';
 import hostingRawalpindi from './posts/blog-cheap-web-hosting-rawalpindi.json';
 import hostingSialkot from './posts/blog-cheap-web-hosting-sialkot.json';
 import hostingCost from './posts/blog-web-hosting-cost-pakistan.json';
+import hostingCost2027 from './posts/blog-web-hosting-cost-pakistan-2027.json';
 import listingJson from './listing.json';
 
 interface RawPost {
@@ -111,6 +112,7 @@ const rawPosts: RawPost[] = [
   vpsLocations,
   chooseDomainName,
   businessNeedsSsl,
+  hostingCost2027,
 ] as unknown as RawPost[];
 
 /** Newest first, matching the legacy listing order. */
